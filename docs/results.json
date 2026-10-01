@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-01T23:45:40.300640+00:00",
+  "generated_at": "2026-10-01T23:50:13.011429+00:00",
   "source_hashes": {
     "indicator": "9ddacaedbb5f06c596ef59bb73d79af18180c7c2ac5d57b0522dc43edef07af8",
     "driver": "7e3ac77f0c39b117fbb0446328314a66aeb5aef04a148a19bdab50c326dbcc2d"
@@ -11,7 +11,7 @@
   },
   "summary": {
     "error": 0,
-    "warning": 54
+    "warning": 56
   },
   "checks": {
     "inventory": "unconfigured",
@@ -23,6 +23,18 @@
     }
   },
   "findings": [
+    {
+      "severity": "warning",
+      "code": "missed_refresh",
+      "message": "indicator CSV is byte-identical to the prior run",
+      "source": "vw_indicator_final.csv"
+    },
+    {
+      "severity": "warning",
+      "code": "missed_refresh",
+      "message": "driver CSV is byte-identical to the prior run",
+      "source": "vw_driver_final.csv"
+    },
     {
       "severity": "warning",
       "code": "missing_metric_value",
