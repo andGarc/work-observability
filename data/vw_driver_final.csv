@@ -1,0 +1,169 @@
+﻿driver_name,bucket_id,display_order,driver_id,org,reporting_date,numerator,denominator,driver_score,driver_status
+Compliance,1,1,1,E - Engineering & Science,2026-07-01,7,3,2.33333333333333,Warning
+Compliance,1,1,1,EB - AMSD Engr,2026-07-01,0,0,0.00000000000000,Not Available
+Compliance,1,1,1,EB - BaPS Engr,2026-07-01,8,3,2.66666666666666,Healthy
+Compliance,1,1,1,EH - Homerm StaffAdm,2026-07-01,6,2,3.00000000000000,Healthy
+Compliance,1,1,1,EM - Marine Systems,2026-07-01,8,3,2.66666666666666,Healthy
+Compliance,1,1,1,EM - MLSS,2026-07-01,0,0,0.00000000000000,Not Available
+Compliance,1,1,1,EN - MSTS,2026-07-01,7,3,2.33333333333333,Warning
+Compliance,1,1,1,EN - NTSD,2026-07-01,0,0,0.00000000000000,Not Available
+Compliance,1,1,1,EP - E&S SECTOR ENGINEERING,2026-07-01,7,3,2.33333333333333,Warning
+Compliance,1,1,1,EV - Mission Next Engineering,2026-07-01,0,0,0.00000000000000,Not Available
+Compliance,1,1,1,EX - NIC,2026-07-01,7,3,2.33333333333333,Warning
+Compliance,1,1,1,EX - NIS,2026-07-01,0,0,0.00000000000000,Not Available
+Compliance,1,1,1,MEC,2026-07-01,0,0,0.00000000000000,Not Available
+Compliance,1,1,1,Other,2026-07-01,0,0,0.00000000000000,Not Available
+Staffing,1,2,3,E - Engineering & Science,2026-07-01,4,4,1.00000000000000,At-Risk
+Staffing,1,2,3,EB - AMSD Engr,2026-07-01,0,0,0.00000000000000,Not Available
+Staffing,1,2,3,EB - BaPS Engr,2026-07-01,3,4,0.75000000000000,At-Risk
+Staffing,1,2,3,EH - Homerm StaffAdm,2026-07-01,0,0,0.00000000000000,Not Available
+Staffing,1,2,3,EM - Marine Systems,2026-07-01,2,4,0.50000000000000,At-Risk
+Staffing,1,2,3,EM - MLSS,2026-07-01,0,0,0.00000000000000,Not Available
+Staffing,1,2,3,EN - MSTS,2026-07-01,4,4,1.00000000000000,At-Risk
+Staffing,1,2,3,EN - NTSD,2026-07-01,0,0,0.00000000000000,Not Available
+Staffing,1,2,3,EP - E&S SECTOR ENGINEERING,2026-07-01,2,4,0.50000000000000,At-Risk
+Staffing,1,2,3,EV - Mission Next Engineering,2026-07-01,0,0,0.00000000000000,Not Available
+Staffing,1,2,3,EX - NIC,2026-07-01,4,4,1.00000000000000,At-Risk
+Staffing,1,2,3,EX - NIS,2026-07-01,0,0,0.00000000000000,Not Available
+Staffing,1,2,3,MEC,2026-07-01,0,0,0.00000000000000,Not Available
+Staffing,1,2,3,Other,2026-07-01,0,0,0.00000000000000,Not Available
+Workforce Health,1,3,4,E - Engineering & Science,2026-07-01,8,3,2.66666666666666,Healthy
+Workforce Health,1,3,4,EB - AMSD Engr,2026-07-01,0,0,0.00000000000000,Not Available
+Workforce Health,1,3,4,EB - BaPS Engr,2026-07-01,9,3,3.00000000000000,Healthy
+Workforce Health,1,3,4,EH - Homerm StaffAdm,2026-07-01,4,2,2.00000000000000,Warning
+Workforce Health,1,3,4,EM - Marine Systems,2026-07-01,7,3,2.33333333333333,Warning
+Workforce Health,1,3,4,EM - MLSS,2026-07-01,0,0,0.00000000000000,Not Available
+Workforce Health,1,3,4,EN - MSTS,2026-07-01,7,3,2.33333333333333,Warning
+Workforce Health,1,3,4,EN - NTSD,2026-07-01,0,0,0.00000000000000,Not Available
+Workforce Health,1,3,4,EP - E&S SECTOR ENGINEERING,2026-07-01,7,3,2.33333333333333,Warning
+Workforce Health,1,3,4,EV - Mission Next Engineering,2026-07-01,0,0,0.00000000000000,Not Available
+Workforce Health,1,3,4,EX - NIC,2026-07-01,8,3,2.66666666666666,Healthy
+Workforce Health,1,3,4,EX - NIS,2026-07-01,0,0,0.00000000000000,Not Available
+Workforce Health,1,3,4,MEC,2026-07-01,0,0,0.00000000000000,Not Available
+Workforce Health,1,3,4,Other,2026-07-01,0,0,0.00000000000000,Not Available
+Systems Engineering,2,1,5,E - Engineering & Science,2026-06-01,6,2,3.00000000000000,Healthy
+Systems Engineering,2,1,5,EB - AMSD Engr,2026-06-01,6,2,3.00000000000000,Healthy
+Systems Engineering,2,1,5,EB - BaPS Engr,2026-06-01,4,2,2.00000000000000,Warning
+Systems Engineering,2,1,5,EH - Homerm StaffAdm,2026-07-01,0,0,0.00000000000000,Not Available
+Systems Engineering,2,1,5,EM - Marine Systems,2026-06-01,4,2,2.00000000000000,Warning
+Systems Engineering,2,1,5,EM - MLSS,2026-07-01,0,0,0.00000000000000,Not Available
+Systems Engineering,2,1,5,EN - MSTS,2026-06-01,6,2,3.00000000000000,Healthy
+Systems Engineering,2,1,5,EN - NTSD,2026-07-01,0,0,0.00000000000000,Not Available
+Systems Engineering,2,1,5,EP - E&S SECTOR ENGINEERING,2026-07-01,0,0,0.00000000000000,Not Available
+Systems Engineering,2,1,5,EV - Mission Next Engineering,2026-06-01,2,2,1.00000000000000,At-Risk
+Systems Engineering,2,1,5,EX - NIC,2026-06-01,6,2,3.00000000000000,Healthy
+Systems Engineering,2,1,5,EX - NIS,2026-07-01,0,0,0.00000000000000,Not Available
+Systems Engineering,2,1,5,MEC,2026-07-01,0,0,0.00000000000000,Not Available
+Systems Engineering,2,1,5,Other,2026-07-01,0,0,0.00000000000000,Not Available
+Hardware Design,2,2,6,E - Engineering & Science,2026-07-01,2,1,2.00000000000000,Warning
+Hardware Design,2,2,6,EB - AMSD Engr,2026-07-01,0,0,0.00000000000000,Not Available
+Hardware Design,2,2,6,EB - BaPS Engr,2026-07-01,0,0,0.00000000000000,Not Available
+Hardware Design,2,2,6,EH - Homerm StaffAdm,2026-07-01,0,0,0.00000000000000,Not Available
+Hardware Design,2,2,6,EM - Marine Systems,2026-07-01,0,0,0.00000000000000,Not Available
+Hardware Design,2,2,6,EM - MLSS,2026-07-01,0,0,0.00000000000000,Not Available
+Hardware Design,2,2,6,EN - MSTS,2026-07-01,0,0,0.00000000000000,Not Available
+Hardware Design,2,2,6,EN - NTSD,2026-07-01,0,0,0.00000000000000,Not Available
+Hardware Design,2,2,6,EP - E&S SECTOR ENGINEERING,2026-07-01,0,0,0.00000000000000,Not Available
+Hardware Design,2,2,6,EV - Mission Next Engineering,2026-07-01,0,0,0.00000000000000,Not Available
+Hardware Design,2,2,6,EX - NIC,2026-07-01,0,0,0.00000000000000,Not Available
+Hardware Design,2,2,6,EX - NIS,2026-07-01,0,0,0.00000000000000,Not Available
+Hardware Design,2,2,6,MEC,2026-07-01,0,0,0.00000000000000,Not Available
+Hardware Design,2,2,6,Other,2026-07-01,30,11,2.72727272727272,Healthy
+Tools and Automation,2,5,7,E - Engineering & Science,2026-06-01,2,1,2.00000000000000,Warning
+Tools and Automation,2,5,7,EB - AMSD Engr,2026-06-01,3,1,3.00000000000000,Healthy
+Tools and Automation,2,5,7,EB - BaPS Engr,2026-06-01,1,1,1.00000000000000,At-Risk
+Tools and Automation,2,5,7,EH - Homerm StaffAdm,2026-07-01,0,0,0.00000000000000,Not Available
+Tools and Automation,2,5,7,EM - Marine Systems,2026-06-01,1,1,1.00000000000000,At-Risk
+Tools and Automation,2,5,7,EM - MLSS,2025-12-01,2,1,2.00000000000000,Warning
+Tools and Automation,2,5,7,EN - MSTS,2026-06-01,2,1,2.00000000000000,Warning
+Tools and Automation,2,5,7,EN - NTSD,2025-12-01,2,1,2.00000000000000,Warning
+Tools and Automation,2,5,7,EP - E&S SECTOR ENGINEERING,2026-07-01,0,0,0.00000000000000,Not Available
+Tools and Automation,2,5,7,EV - Mission Next Engineering,2026-06-01,1,1,1.00000000000000,At-Risk
+Tools and Automation,2,5,7,EX - NIC,2026-06-01,2,1,2.00000000000000,Warning
+Tools and Automation,2,5,7,EX - NIS,2025-12-01,3,1,3.00000000000000,Healthy
+Tools and Automation,2,5,7,MEC,2025-12-01,1,1,1.00000000000000,At-Risk
+Tools and Automation,2,5,7,Other,2026-07-01,0,0,0.00000000000000,Not Available
+Program Cost,3,1,10,E - Engineering & Science,2026-06-01,1,1,1.00000000000000,At-Risk
+Program Cost,3,1,10,EB - AMSD Engr,2026-07-01,0,0,0.00000000000000,Not Available
+Program Cost,3,1,10,EB - BaPS Engr,2026-06-01,1,1,1.00000000000000,At-Risk
+Program Cost,3,1,10,EH - Homerm StaffAdm,2026-07-01,0,0,0.00000000000000,Not Available
+Program Cost,3,1,10,EM - Marine Systems,2026-06-01,1,1,1.00000000000000,At-Risk
+Program Cost,3,1,10,EM - MLSS,2026-07-01,0,0,0.00000000000000,Not Available
+Program Cost,3,1,10,EN - MSTS,2026-06-01,1,1,1.00000000000000,At-Risk
+Program Cost,3,1,10,EN - NTSD,2026-07-01,0,0,0.00000000000000,Not Available
+Program Cost,3,1,10,EP - E&S SECTOR ENGINEERING,2026-06-01,1,1,1.00000000000000,At-Risk
+Program Cost,3,1,10,EV - Mission Next Engineering,2026-07-01,0,0,0.00000000000000,Not Available
+Program Cost,3,1,10,EX - NIC,2026-06-01,1,1,1.00000000000000,At-Risk
+Program Cost,3,1,10,EX - NIS,2026-07-01,0,0,0.00000000000000,Not Available
+Program Cost,3,1,10,MEC,2026-07-01,0,0,0.00000000000000,Not Available
+Program Cost,3,1,10,Other,2026-07-01,0,0,0.00000000000000,Not Available
+Program Schedule,3,2,11,E - Engineering & Science,2026-06-01,1,1,1.00000000000000,At-Risk
+Program Schedule,3,2,11,EB - AMSD Engr,2026-07-01,0,0,0.00000000000000,Not Available
+Program Schedule,3,2,11,EB - BaPS Engr,2026-06-01,1,1,1.00000000000000,At-Risk
+Program Schedule,3,2,11,EH - Homerm StaffAdm,2026-07-01,0,0,0.00000000000000,Not Available
+Program Schedule,3,2,11,EM - Marine Systems,2026-06-01,1,1,1.00000000000000,At-Risk
+Program Schedule,3,2,11,EM - MLSS,2026-07-01,0,0,0.00000000000000,Not Available
+Program Schedule,3,2,11,EN - MSTS,2026-06-01,1,1,1.00000000000000,At-Risk
+Program Schedule,3,2,11,EN - NTSD,2026-07-01,0,0,0.00000000000000,Not Available
+Program Schedule,3,2,11,EP - E&S SECTOR ENGINEERING,2026-06-01,1,1,1.00000000000000,At-Risk
+Program Schedule,3,2,11,EV - Mission Next Engineering,2026-07-01,0,0,0.00000000000000,Not Available
+Program Schedule,3,2,11,EX - NIC,2026-06-01,1,1,1.00000000000000,At-Risk
+Program Schedule,3,2,11,EX - NIS,2026-07-01,0,0,0.00000000000000,Not Available
+Program Schedule,3,2,11,MEC,2026-07-01,0,0,0.00000000000000,Not Available
+Program Schedule,3,2,11,Other,2026-07-01,0,0,0.00000000000000,Not Available
+Shared Metrics,3,3,12,E - Engineering & Science,2026-06-01,20,7,2.85714285714285,Healthy
+Shared Metrics,3,3,12,EB - AMSD Engr,2026-06-01,19,7,2.71428571428571,Healthy
+Shared Metrics,3,3,12,EB - BaPS Engr,2026-06-01,20,7,2.85714285714285,Healthy
+Shared Metrics,3,3,12,EH - Homerm StaffAdm,2026-07-01,0,0,0.00000000000000,Not Available
+Shared Metrics,3,3,12,EM - Marine Systems,2026-06-01,17,7,2.42857142857142,Warning
+Shared Metrics,3,3,12,EM - MLSS,2026-07-01,0,0,0.00000000000000,Not Available
+Shared Metrics,3,3,12,EN - MSTS,2026-06-01,20,7,2.85714285714285,Healthy
+Shared Metrics,3,3,12,EN - NTSD,2026-07-01,0,0,0.00000000000000,Not Available
+Shared Metrics,3,3,12,EP - E&S SECTOR ENGINEERING,2026-07-01,0,0,0.00000000000000,Not Available
+Shared Metrics,3,3,12,EV - Mission Next Engineering,2026-06-01,21,7,3.00000000000000,Healthy
+Shared Metrics,3,3,12,EX - NIC,2026-06-01,21,7,3.00000000000000,Healthy
+Shared Metrics,3,3,12,EX - NIS,2026-07-01,0,0,0.00000000000000,Not Available
+Shared Metrics,3,3,12,MEC,2026-07-01,0,0,0.00000000000000,Not Available
+Shared Metrics,3,3,12,Other,2026-07-01,0,0,0.00000000000000,Not Available
+Organizational Financials,4,1,15,E - Engineering & Science,2026-07-01,11,6,1.83333333333333,Warning
+Organizational Financials,4,1,15,EB - AMSD Engr,2026-07-01,0,0,0.00000000000000,Not Available
+Organizational Financials,4,1,15,EB - BaPS Engr,2026-07-01,10,5,2.00000000000000,At-Risk
+Organizational Financials,4,1,15,EH - Homerm StaffAdm,2026-07-01,5,4,1.25000000000000,Warning
+Organizational Financials,4,1,15,EM - Marine Systems,2026-07-01,10,5,2.00000000000000,At-Risk
+Organizational Financials,4,1,15,EM - MLSS,2026-07-01,0,0,0.00000000000000,Not Available
+Organizational Financials,4,1,15,EN - MSTS,2026-07-01,11,5,2.20000000000000,Warning
+Organizational Financials,4,1,15,EN - NTSD,2026-07-01,0,0,0.00000000000000,Not Available
+Organizational Financials,4,1,15,EP - E&S SECTOR ENGINEERING,2026-07-01,12,5,2.40000000000000,At-Risk
+Organizational Financials,4,1,15,EV - Mission Next Engineering,2026-07-01,0,0,0.00000000000000,Not Available
+Organizational Financials,4,1,15,EX - NIC,2026-07-01,12,5,2.40000000000000,At-Risk
+Organizational Financials,4,1,15,EX - NIS,2026-07-01,0,0,0.00000000000000,Not Available
+Organizational Financials,4,1,15,MEC,2026-07-01,0,0,0.00000000000000,Not Available
+Organizational Financials,4,1,15,Other,2026-07-01,0,0,0.00000000000000,Not Available
+Software,2,3,16,E - Engineering & Science,2026-02-01,0,0,0.00000000000000,Not Available
+Software,2,3,16,EB - AMSD Engr,2026-07-01,0,0,0.00000000000000,Not Available
+Software,2,3,16,EB - BaPS Engr,2026-07-01,0,0,0.00000000000000,Not Available
+Software,2,3,16,EH - Homerm StaffAdm,2026-07-01,0,0,0.00000000000000,Not Available
+Software,2,3,16,EM - Marine Systems,2026-07-01,0,0,0.00000000000000,Not Available
+Software,2,3,16,EM - MLSS,2026-07-01,0,0,0.00000000000000,Not Available
+Software,2,3,16,EN - MSTS,2026-07-01,0,0,0.00000000000000,Not Available
+Software,2,3,16,EN - NTSD,2026-07-01,0,0,0.00000000000000,Not Available
+Software,2,3,16,EP - E&S SECTOR ENGINEERING,2026-07-01,0,0,0.00000000000000,Not Available
+Software,2,3,16,EV - Mission Next Engineering,2026-07-01,0,0,0.00000000000000,Not Available
+Software,2,3,16,EX - NIC,2026-07-01,0,0,0.00000000000000,Not Available
+Software,2,3,16,EX - NIS,2026-07-01,0,0,0.00000000000000,Not Available
+Software,2,3,16,MEC,2026-07-01,0,0,0.00000000000000,Not Available
+Software,2,3,16,Other,2026-07-01,0,0,0.00000000000000,Not Available
+Milestone Review,2,4,17,E - Engineering & Science,2026-07-01,1,1,1.00000000000000,At-Risk
+Milestone Review,2,4,17,EB - AMSD Engr,2026-07-01,1,1,1.00000000000000,At-Risk
+Milestone Review,2,4,17,EB - BaPS Engr,2026-07-01,1,1,1.00000000000000,At-Risk
+Milestone Review,2,4,17,EH - Homerm StaffAdm,2026-07-01,0,0,0.00000000000000,Not Available
+Milestone Review,2,4,17,EM - Marine Systems,2026-07-01,1,1,1.00000000000000,At-Risk
+Milestone Review,2,4,17,EM - MLSS,2026-07-01,0,0,0.00000000000000,Not Available
+Milestone Review,2,4,17,EN - MSTS,2026-07-01,1,1,1.00000000000000,At-Risk
+Milestone Review,2,4,17,EN - NTSD,2026-07-01,0,0,0.00000000000000,Not Available
+Milestone Review,2,4,17,EP - E&S SECTOR ENGINEERING,2026-07-01,0,0,0.00000000000000,Not Available
+Milestone Review,2,4,17,EV - Mission Next Engineering,2026-07-01,1,1,1.00000000000000,At-Risk
+Milestone Review,2,4,17,EX - NIC,2026-07-01,1,1,1.00000000000000,At-Risk
+Milestone Review,2,4,17,EX - NIS,2026-07-01,0,0,0.00000000000000,Not Available
+Milestone Review,2,4,17,MEC,2026-07-01,0,0,0.00000000000000,Not Available
+Milestone Review,2,4,17,Other,2026-07-01,0,0,0.00000000000000,Not Available

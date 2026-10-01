@@ -1,0 +1,4688 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-01T23:45:40.300640+00:00",
+  "source_hashes": {
+    "indicator": "9ddacaedbb5f06c596ef59bb73d79af18180c7c2ac5d57b0522dc43edef07af8",
+    "driver": "7e3ac77f0c39b117fbb0446328314a66aeb5aef04a148a19bdab50c326dbcc2d"
+  },
+  "source_rows": {
+    "indicator": 2230,
+    "driver": 168
+  },
+  "summary": {
+    "error": 0,
+    "warning": 54
+  },
+  "checks": {
+    "inventory": "unconfigured",
+    "numeric_reconciliation": "unverified",
+    "history": {
+      "evaluated": 93,
+      "insufficient_history": 127,
+      "minimum_prior_months": 6
+    }
+  },
+  "findings": [
+    {
+      "severity": "warning",
+      "code": "missing_metric_value",
+      "message": "Available indicator has no numeric value",
+      "source": "vw_indicator_final.csv",
+      "driver_id": "17",
+      "indicator_id": "74",
+      "org": "E - Engineering & Science",
+      "org_level": "Sector",
+      "site": "NULL",
+      "reporting_date": "2026-07-01"
+    },
+    {
+      "severity": "warning",
+      "code": "missing_metric_value",
+      "message": "Available indicator has no numeric value",
+      "source": "vw_indicator_final.csv",
+      "driver_id": "17",
+      "indicator_id": "74",
+      "org": "EB - BaPS Engr",
+      "org_level": "Division",
+      "site": "NULL",
+      "reporting_date": "2026-07-01"
+    },
+    {
+      "severity": "warning",
+      "code": "missing_metric_value",
+      "message": "Available indicator has no numeric value",
+      "source": "vw_indicator_final.csv",
+      "driver_id": "17",
+      "indicator_id": "74",
+      "org": "EN - MSTS",
+      "org_level": "Division",
+      "site": "NULL",
+      "reporting_date": "2026-07-01"
+    },
+    {
+      "severity": "warning",
+      "code": "missing_metric_value",
+      "message": "Available indicator has no numeric value",
+      "source": "vw_indicator_final.csv",
+      "driver_id": "17",
+      "indicator_id": "74",
+      "org": "EX - NIC",
+      "org_level": "Division",
+      "site": "NULL",
+      "reporting_date": "2026-07-01"
+    },
+    {
+      "severity": "warning",
+      "code": "missing_metric_value",
+      "message": "Available indicator has no numeric value",
+      "source": "vw_indicator_final.csv",
+      "driver_id": "17",
+      "indicator_id": "77",
+      "org": "E - Engineering & Science",
+      "org_level": "Sector",
+      "site": "NULL",
+      "reporting_date": "2026-07-01"
+    },
+    {
+      "severity": "warning",
+      "code": "missing_metric_value",
+      "message": "Available indicator has no numeric value",
+      "source": "vw_indicator_final.csv",
+      "driver_id": "17",
+      "indicator_id": "77",
+      "org": "EB - BaPS Engr",
+      "org_level": "Division",
+      "site": "NULL",
+      "reporting_date": "2026-07-01"
+    },
+    {
+      "severity": "warning",
+      "code": "missing_metric_value",
+      "message": "Available indicator has no numeric value",
+      "source": "vw_indicator_final.csv",
+      "driver_id": "17",
+      "indicator_id": "77",
+      "org": "EN - MSTS",
+      "org_level": "Division",
+      "site": "NULL",
+      "reporting_date": "2026-07-01"
+    },
+    {
+      "severity": "warning",
+      "code": "missing_metric_value",
+      "message": "Available indicator has no numeric value",
+      "source": "vw_indicator_final.csv",
+      "driver_id": "17",
+      "indicator_id": "77",
+      "org": "EX - NIC",
+      "org_level": "Division",
+      "site": "NULL",
+      "reporting_date": "2026-07-01"
+    },
+    {
+      "severity": "warning",
+      "code": "missing_metric_value",
+      "message": "Available indicator has no numeric value",
+      "source": "vw_indicator_final.csv",
+      "driver_id": "10",
+      "indicator_id": "57",
+      "org": "E - Engineering & Science",
+      "org_level": "Sector",
+      "site": "NULL",
+      "reporting_date": "2026-06-01"
+    },
+    {
+      "severity": "warning",
+      "code": "missing_metric_value",
+      "message": "Available indicator has no numeric value",
+      "source": "vw_indicator_final.csv",
+      "driver_id": "10",
+      "indicator_id": "57",
+      "org": "EB - BaPS Engr",
+      "org_level": "Division",
+      "site": "NULL",
+      "reporting_date": "2026-06-01"
+    },
+    {
+      "severity": "warning",
+      "code": "missing_metric_value",
+      "message": "Available indicator has no numeric value",
+      "source": "vw_indicator_final.csv",
+      "driver_id": "10",
+      "indicator_id": "57",
+      "org": "EM - Marine Systems",
+      "org_level": "Division",
+      "site": "NULL",
+      "reporting_date": "2026-06-01"
+    },
+    {
+      "severity": "warning",
+      "code": "missing_metric_value",
+      "message": "Available indicator has no numeric value",
+      "source": "vw_indicator_final.csv",
+      "driver_id": "10",
+      "indicator_id": "57",
+      "org": "EN - MSTS",
+      "org_level": "Division",
+      "site": "NULL",
+      "reporting_date": "2026-06-01"
+    },
+    {
+      "severity": "warning",
+      "code": "missing_metric_value",
+      "message": "Available indicator has no numeric value",
+      "source": "vw_indicator_final.csv",
+      "driver_id": "10",
+      "indicator_id": "57",
+      "org": "EP - E&S SECTOR ENGINEERING",
+      "org_level": "Division",
+      "site": "NULL",
+      "reporting_date": "2026-06-01"
+    },
+    {
+      "severity": "warning",
+      "code": "missing_metric_value",
+      "message": "Available indicator has no numeric value",
+      "source": "vw_indicator_final.csv",
+      "driver_id": "10",
+      "indicator_id": "57",
+      "org": "EX - NIC",
+      "org_level": "Division",
+      "site": "NULL",
+      "reporting_date": "2026-06-01"
+    },
+    {
+      "severity": "warning",
+      "code": "missing_metric_value",
+      "message": "Available indicator has no numeric value",
+      "source": "vw_indicator_final.csv",
+      "driver_id": "10",
+      "indicator_id": "66",
+      "org": "E - Engineering & Science",
+      "org_level": "Sector",
+      "site": "NULL",
+      "reporting_date": "2026-06-01"
+    },
+    {
+      "severity": "warning",
+      "code": "missing_metric_value",
+      "message": "Available indicator has no numeric value",
+      "source": "vw_indicator_final.csv",
+      "driver_id": "10",
+      "indicator_id": "66",
+      "org": "EB - BaPS Engr",
+      "org_level": "Division",
+      "site": "NULL",
+      "reporting_date": "2026-06-01"
+    },
+    {
+      "severity": "warning",
+      "code": "missing_metric_value",
+      "message": "Available indicator has no numeric value",
+      "source": "vw_indicator_final.csv",
+      "driver_id": "10",
+      "indicator_id": "66",
+      "org": "EM - Marine Systems",
+      "org_level": "Division",
+      "site": "NULL",
+      "reporting_date": "2026-06-01"
+    },
+    {
+      "severity": "warning",
+      "code": "missing_metric_value",
+      "message": "Available indicator has no numeric value",
+      "source": "vw_indicator_final.csv",
+      "driver_id": "10",
+      "indicator_id": "66",
+      "org": "EN - MSTS",
+      "org_level": "Division",
+      "site": "NULL",
+      "reporting_date": "2026-06-01"
+    },
+    {
+      "severity": "warning",
+      "code": "missing_metric_value",
+      "message": "Available indicator has no numeric value",
+      "source": "vw_indicator_final.csv",
+      "driver_id": "10",
+      "indicator_id": "66",
+      "org": "EP - E&S SECTOR ENGINEERING",
+      "org_level": "Division",
+      "site": "NULL",
+      "reporting_date": "2026-06-01"
+    },
+    {
+      "severity": "warning",
+      "code": "missing_metric_value",
+      "message": "Available indicator has no numeric value",
+      "source": "vw_indicator_final.csv",
+      "driver_id": "10",
+      "indicator_id": "66",
+      "org": "EX - NIC",
+      "org_level": "Division",
+      "site": "NULL",
+      "reporting_date": "2026-06-01"
+    },
+    {
+      "severity": "warning",
+      "code": "missing_metric_value",
+      "message": "Available indicator has no numeric value",
+      "source": "vw_indicator_final.csv",
+      "driver_id": "10",
+      "indicator_id": "76",
+      "org": "E - Engineering & Science",
+      "org_level": "Sector",
+      "site": "NULL",
+      "reporting_date": "2026-06-01"
+    },
+    {
+      "severity": "warning",
+      "code": "missing_metric_value",
+      "message": "Available indicator has no numeric value",
+      "source": "vw_indicator_final.csv",
+      "driver_id": "10",
+      "indicator_id": "76",
+      "org": "EB - BaPS Engr",
+      "org_level": "Division",
+      "site": "NULL",
+      "reporting_date": "2026-06-01"
+    },
+    {
+      "severity": "warning",
+      "code": "missing_metric_value",
+      "message": "Available indicator has no numeric value",
+      "source": "vw_indicator_final.csv",
+      "driver_id": "10",
+      "indicator_id": "76",
+      "org": "EM - Marine Systems",
+      "org_level": "Division",
+      "site": "NULL",
+      "reporting_date": "2026-06-01"
+    },
+    {
+      "severity": "warning",
+      "code": "missing_metric_value",
+      "message": "Available indicator has no numeric value",
+      "source": "vw_indicator_final.csv",
+      "driver_id": "10",
+      "indicator_id": "76",
+      "org": "EN - MSTS",
+      "org_level": "Division",
+      "site": "NULL",
+      "reporting_date": "2026-06-01"
+    },
+    {
+      "severity": "warning",
+      "code": "missing_metric_value",
+      "message": "Available indicator has no numeric value",
+      "source": "vw_indicator_final.csv",
+      "driver_id": "10",
+      "indicator_id": "76",
+      "org": "EP - E&S SECTOR ENGINEERING",
+      "org_level": "Division",
+      "site": "NULL",
+      "reporting_date": "2026-06-01"
+    },
+    {
+      "severity": "warning",
+      "code": "missing_metric_value",
+      "message": "Available indicator has no numeric value",
+      "source": "vw_indicator_final.csv",
+      "driver_id": "10",
+      "indicator_id": "76",
+      "org": "EX - NIC",
+      "org_level": "Division",
+      "site": "NULL",
+      "reporting_date": "2026-06-01"
+    },
+    {
+      "severity": "warning",
+      "code": "missing_metric_value",
+      "message": "Available indicator has no numeric value",
+      "source": "vw_indicator_final.csv",
+      "driver_id": "11",
+      "indicator_id": "58",
+      "org": "E - Engineering & Science",
+      "org_level": "Sector",
+      "site": "NULL",
+      "reporting_date": "2026-06-01"
+    },
+    {
+      "severity": "warning",
+      "code": "missing_metric_value",
+      "message": "Available indicator has no numeric value",
+      "source": "vw_indicator_final.csv",
+      "driver_id": "11",
+      "indicator_id": "58",
+      "org": "EB - BaPS Engr",
+      "org_level": "Division",
+      "site": "NULL",
+      "reporting_date": "2026-06-01"
+    },
+    {
+      "severity": "warning",
+      "code": "missing_metric_value",
+      "message": "Available indicator has no numeric value",
+      "source": "vw_indicator_final.csv",
+      "driver_id": "11",
+      "indicator_id": "58",
+      "org": "EM - Marine Systems",
+      "org_level": "Division",
+      "site": "NULL",
+      "reporting_date": "2026-06-01"
+    },
+    {
+      "severity": "warning",
+      "code": "missing_metric_value",
+      "message": "Available indicator has no numeric value",
+      "source": "vw_indicator_final.csv",
+      "driver_id": "11",
+      "indicator_id": "58",
+      "org": "EN - MSTS",
+      "org_level": "Division",
+      "site": "NULL",
+      "reporting_date": "2026-06-01"
+    },
+    {
+      "severity": "warning",
+      "code": "missing_metric_value",
+      "message": "Available indicator has no numeric value",
+      "source": "vw_indicator_final.csv",
+      "driver_id": "11",
+      "indicator_id": "58",
+      "org": "EP - E&S SECTOR ENGINEERING",
+      "org_level": "Division",
+      "site": "NULL",
+      "reporting_date": "2026-06-01"
+    },
+    {
+      "severity": "warning",
+      "code": "missing_metric_value",
+      "message": "Available indicator has no numeric value",
+      "source": "vw_indicator_final.csv",
+      "driver_id": "11",
+      "indicator_id": "58",
+      "org": "EX - NIC",
+      "org_level": "Division",
+      "site": "NULL",
+      "reporting_date": "2026-06-01"
+    },
+    {
+      "severity": "warning",
+      "code": "missing_metric_value",
+      "message": "Available indicator has no numeric value",
+      "source": "vw_indicator_final.csv",
+      "driver_id": "11",
+      "indicator_id": "67",
+      "org": "E - Engineering & Science",
+      "org_level": "Sector",
+      "site": "NULL",
+      "reporting_date": "2026-06-01"
+    },
+    {
+      "severity": "warning",
+      "code": "missing_metric_value",
+      "message": "Available indicator has no numeric value",
+      "source": "vw_indicator_final.csv",
+      "driver_id": "11",
+      "indicator_id": "67",
+      "org": "EB - BaPS Engr",
+      "org_level": "Division",
+      "site": "NULL",
+      "reporting_date": "2026-06-01"
+    },
+    {
+      "severity": "warning",
+      "code": "missing_metric_value",
+      "message": "Available indicator has no numeric value",
+      "source": "vw_indicator_final.csv",
+      "driver_id": "11",
+      "indicator_id": "67",
+      "org": "EM - Marine Systems",
+      "org_level": "Division",
+      "site": "NULL",
+      "reporting_date": "2026-06-01"
+    },
+    {
+      "severity": "warning",
+      "code": "missing_metric_value",
+      "message": "Available indicator has no numeric value",
+      "source": "vw_indicator_final.csv",
+      "driver_id": "11",
+      "indicator_id": "67",
+      "org": "EN - MSTS",
+      "org_level": "Division",
+      "site": "NULL",
+      "reporting_date": "2026-06-01"
+    },
+    {
+      "severity": "warning",
+      "code": "missing_metric_value",
+      "message": "Available indicator has no numeric value",
+      "source": "vw_indicator_final.csv",
+      "driver_id": "11",
+      "indicator_id": "67",
+      "org": "EP - E&S SECTOR ENGINEERING",
+      "org_level": "Division",
+      "site": "NULL",
+      "reporting_date": "2026-06-01"
+    },
+    {
+      "severity": "warning",
+      "code": "missing_metric_value",
+      "message": "Available indicator has no numeric value",
+      "source": "vw_indicator_final.csv",
+      "driver_id": "11",
+      "indicator_id": "67",
+      "org": "EX - NIC",
+      "org_level": "Division",
+      "site": "NULL",
+      "reporting_date": "2026-06-01"
+    },
+    {
+      "severity": "warning",
+      "code": "missing_metric_value",
+      "message": "Available indicator has no numeric value",
+      "source": "vw_indicator_final.csv",
+      "driver_id": "15",
+      "indicator_id": "9",
+      "org": "E - Engineering & Science",
+      "org_level": "Sector",
+      "site": "NULL",
+      "reporting_date": "2026-07-01"
+    },
+    {
+      "severity": "warning",
+      "code": "missing_metric_value",
+      "message": "Available indicator has no numeric value",
+      "source": "vw_indicator_final.csv",
+      "driver_id": "15",
+      "indicator_id": "9",
+      "org": "EB - BaPS Engr",
+      "org_level": "Division",
+      "site": "NULL",
+      "reporting_date": "2026-07-01"
+    },
+    {
+      "severity": "warning",
+      "code": "missing_metric_value",
+      "message": "Available indicator has no numeric value",
+      "source": "vw_indicator_final.csv",
+      "driver_id": "15",
+      "indicator_id": "9",
+      "org": "EM - Marine Systems",
+      "org_level": "Division",
+      "site": "NULL",
+      "reporting_date": "2026-07-01"
+    },
+    {
+      "severity": "warning",
+      "code": "missing_metric_value",
+      "message": "Available indicator has no numeric value",
+      "source": "vw_indicator_final.csv",
+      "driver_id": "15",
+      "indicator_id": "9",
+      "org": "EN - MSTS",
+      "org_level": "Division",
+      "site": "NULL",
+      "reporting_date": "2026-07-01"
+    },
+    {
+      "severity": "warning",
+      "code": "missing_metric_value",
+      "message": "Available indicator has no numeric value",
+      "source": "vw_indicator_final.csv",
+      "driver_id": "15",
+      "indicator_id": "9",
+      "org": "EP - E&S SECTOR ENGINEERING",
+      "org_level": "Division",
+      "site": "NULL",
+      "reporting_date": "2026-07-01"
+    },
+    {
+      "severity": "warning",
+      "code": "missing_metric_value",
+      "message": "Available indicator has no numeric value",
+      "source": "vw_indicator_final.csv",
+      "driver_id": "15",
+      "indicator_id": "9",
+      "org": "EX - NIC",
+      "org_level": "Division",
+      "site": "NULL",
+      "reporting_date": "2026-07-01"
+    },
+    {
+      "severity": "warning",
+      "code": "missing_metric_value",
+      "message": "Available indicator has no numeric value",
+      "source": "vw_indicator_final.csv",
+      "driver_id": "15",
+      "indicator_id": "42",
+      "org": "E - Engineering & Science",
+      "org_level": "Sector",
+      "site": "NULL",
+      "reporting_date": "2026-07-01"
+    },
+    {
+      "severity": "warning",
+      "code": "missing_metric_value",
+      "message": "Available indicator has no numeric value",
+      "source": "vw_indicator_final.csv",
+      "driver_id": "15",
+      "indicator_id": "42",
+      "org": "EB - BaPS Engr",
+      "org_level": "Division",
+      "site": "NULL",
+      "reporting_date": "2026-07-01"
+    },
+    {
+      "severity": "warning",
+      "code": "missing_metric_value",
+      "message": "Available indicator has no numeric value",
+      "source": "vw_indicator_final.csv",
+      "driver_id": "15",
+      "indicator_id": "42",
+      "org": "EM - Marine Systems",
+      "org_level": "Division",
+      "site": "NULL",
+      "reporting_date": "2026-07-01"
+    },
+    {
+      "severity": "warning",
+      "code": "missing_metric_value",
+      "message": "Available indicator has no numeric value",
+      "source": "vw_indicator_final.csv",
+      "driver_id": "15",
+      "indicator_id": "42",
+      "org": "EN - MSTS",
+      "org_level": "Division",
+      "site": "NULL",
+      "reporting_date": "2026-07-01"
+    },
+    {
+      "severity": "warning",
+      "code": "missing_metric_value",
+      "message": "Available indicator has no numeric value",
+      "source": "vw_indicator_final.csv",
+      "driver_id": "15",
+      "indicator_id": "42",
+      "org": "EP - E&S SECTOR ENGINEERING",
+      "org_level": "Division",
+      "site": "NULL",
+      "reporting_date": "2026-07-01"
+    },
+    {
+      "severity": "warning",
+      "code": "missing_metric_value",
+      "message": "Available indicator has no numeric value",
+      "source": "vw_indicator_final.csv",
+      "driver_id": "15",
+      "indicator_id": "42",
+      "org": "EX - NIC",
+      "org_level": "Division",
+      "site": "NULL",
+      "reporting_date": "2026-07-01"
+    },
+    {
+      "severity": "warning",
+      "code": "missing_max_flag",
+      "message": "No is_max_date=1; using greatest reporting date",
+      "source": "vw_indicator_final.csv",
+      "driver_id": "6",
+      "indicator_id": "62",
+      "org": "Other",
+      "org_level": "Site",
+      "site": "TRY",
+      "reporting_date": "2025-12-01"
+    },
+    {
+      "severity": "warning",
+      "code": "missing_max_flag",
+      "message": "No is_max_date=1; using greatest reporting date",
+      "source": "vw_indicator_final.csv",
+      "driver_id": "6",
+      "indicator_id": "62",
+      "org": "Other",
+      "org_level": "Site",
+      "site": "SD",
+      "reporting_date": "2026-06-01"
+    },
+    {
+      "severity": "warning",
+      "code": "missing_max_flag",
+      "message": "No is_max_date=1; using greatest reporting date",
+      "source": "vw_indicator_final.csv",
+      "driver_id": "6",
+      "indicator_id": "62",
+      "org": "Other",
+      "org_level": "Site",
+      "site": "SAC",
+      "reporting_date": "2026-06-01"
+    },
+    {
+      "severity": "warning",
+      "code": "historical_outlier",
+      "message": "Current 0.0021 differs from historical median 0 (n=24)",
+      "source": "vw_indicator_final.csv",
+      "driver_id": "6",
+      "indicator_id": "60",
+      "org": "Other",
+      "org_level": "Site",
+      "site": "RM",
+      "reporting_date": "2026-07-01"
+    }
+  ],
+  "drivers": [
+    {
+      "driver_id": "1",
+      "driver_name": "Compliance",
+      "bucket_id": "1",
+      "records": [
+        {
+          "org": "E - Engineering & Science",
+          "reporting_date": "2026-07-01",
+          "score": 2.33333333333333,
+          "status": "Warning"
+        },
+        {
+          "org": "EB - AMSD Engr",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "EB - BaPS Engr",
+          "reporting_date": "2026-07-01",
+          "score": 2.66666666666666,
+          "status": "Healthy"
+        },
+        {
+          "org": "EH - Homerm StaffAdm",
+          "reporting_date": "2026-07-01",
+          "score": 3.0,
+          "status": "Healthy"
+        },
+        {
+          "org": "EM - MLSS",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "EM - Marine Systems",
+          "reporting_date": "2026-07-01",
+          "score": 2.66666666666666,
+          "status": "Healthy"
+        },
+        {
+          "org": "EN - MSTS",
+          "reporting_date": "2026-07-01",
+          "score": 2.33333333333333,
+          "status": "Warning"
+        },
+        {
+          "org": "EN - NTSD",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "EP - E&S SECTOR ENGINEERING",
+          "reporting_date": "2026-07-01",
+          "score": 2.33333333333333,
+          "status": "Warning"
+        },
+        {
+          "org": "EV - Mission Next Engineering",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "EX - NIC",
+          "reporting_date": "2026-07-01",
+          "score": 2.33333333333333,
+          "status": "Warning"
+        },
+        {
+          "org": "EX - NIS",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "MEC",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "Other",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        }
+      ],
+      "indicators": [
+        {
+          "indicator_id": "28",
+          "metric_name": "CAM Training Compliance (LX)",
+          "records": [
+            {
+              "reporting_date": "2026-07-01",
+              "org": "E - Engineering & Science",
+              "org_level": "Sector",
+              "site": null,
+              "value": 0.77,
+              "display": "77%",
+              "status": "At-Risk"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EX - NIC",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.79,
+              "display": "78%",
+              "status": "At-Risk"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EP - E&S SECTOR ENGINEERING",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.63,
+              "display": "62%",
+              "status": "At-Risk"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EN - MSTS",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.69,
+              "display": "68%",
+              "status": "At-Risk"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EM - Marine Systems",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.85,
+              "display": "84%",
+              "status": "Warning"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EB - BaPS Engr",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.83,
+              "display": "82%",
+              "status": "Warning"
+            }
+          ]
+        },
+        {
+          "indicator_id": "6",
+          "metric_name": "Certification Compliance (LX)",
+          "records": [
+            {
+              "reporting_date": "2026-07-01",
+              "org": "E - Engineering & Science",
+              "org_level": "Sector",
+              "site": null,
+              "value": 0.99,
+              "display": "99%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EX - NIC",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.99,
+              "display": "99%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EP - E&S SECTOR ENGINEERING",
+              "org_level": "Division",
+              "site": null,
+              "value": 1.0,
+              "display": "99%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EN - MSTS",
+              "org_level": "Division",
+              "site": null,
+              "value": 1.0,
+              "display": "99%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EM - Marine Systems",
+              "org_level": "Division",
+              "site": null,
+              "value": 1.0,
+              "display": "99%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EH - Homerm StaffAdm",
+              "org_level": "Division",
+              "site": null,
+              "value": 1.0,
+              "display": "100%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EB - BaPS Engr",
+              "org_level": "Division",
+              "site": null,
+              "value": 1.0,
+              "display": "99%",
+              "status": "Healthy"
+            }
+          ]
+        },
+        {
+          "indicator_id": "7",
+          "metric_name": "Curriculum Compliance (LX)",
+          "records": [
+            {
+              "reporting_date": "2026-07-01",
+              "org": "E - Engineering & Science",
+              "org_level": "Sector",
+              "site": null,
+              "value": 1.0,
+              "display": "99%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EX - NIC",
+              "org_level": "Division",
+              "site": null,
+              "value": 1.0,
+              "display": "99%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EP - E&S SECTOR ENGINEERING",
+              "org_level": "Division",
+              "site": null,
+              "value": 1.0,
+              "display": "99%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EN - MSTS",
+              "org_level": "Division",
+              "site": null,
+              "value": 1.0,
+              "display": "99%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EM - Marine Systems",
+              "org_level": "Division",
+              "site": null,
+              "value": 1.0,
+              "display": "99%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EH - Homerm StaffAdm",
+              "org_level": "Division",
+              "site": null,
+              "value": 1.0,
+              "display": "100%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EB - BaPS Engr",
+              "org_level": "Division",
+              "site": null,
+              "value": 1.0,
+              "display": "99%",
+              "status": "Healthy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "driver_id": "3",
+      "driver_name": "Staffing",
+      "bucket_id": "1",
+      "records": [
+        {
+          "org": "E - Engineering & Science",
+          "reporting_date": "2026-07-01",
+          "score": 1.0,
+          "status": "At-Risk"
+        },
+        {
+          "org": "EB - AMSD Engr",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "EB - BaPS Engr",
+          "reporting_date": "2026-07-01",
+          "score": 0.75,
+          "status": "At-Risk"
+        },
+        {
+          "org": "EH - Homerm StaffAdm",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "EM - MLSS",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "EM - Marine Systems",
+          "reporting_date": "2026-07-01",
+          "score": 0.5,
+          "status": "At-Risk"
+        },
+        {
+          "org": "EN - MSTS",
+          "reporting_date": "2026-07-01",
+          "score": 1.0,
+          "status": "At-Risk"
+        },
+        {
+          "org": "EN - NTSD",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "EP - E&S SECTOR ENGINEERING",
+          "reporting_date": "2026-07-01",
+          "score": 0.5,
+          "status": "At-Risk"
+        },
+        {
+          "org": "EV - Mission Next Engineering",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "EX - NIC",
+          "reporting_date": "2026-07-01",
+          "score": 1.0,
+          "status": "At-Risk"
+        },
+        {
+          "org": "EX - NIS",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "MEC",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "Other",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        }
+      ],
+      "indicators": [
+        {
+          "indicator_id": "79",
+          "metric_name": "Demand Late to Ask (WLF)",
+          "records": [
+            {
+              "reporting_date": "2026-07-01",
+              "org": "E - Engineering & Science",
+              "org_level": "Sector",
+              "site": null,
+              "value": null,
+              "display": "494 FTE",
+              "status": "unk"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EX - NIC",
+              "org_level": "Division",
+              "site": null,
+              "value": null,
+              "display": "174 FTE",
+              "status": "unk"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EP - E&S SECTOR ENGINEERING",
+              "org_level": "Division",
+              "site": null,
+              "value": null,
+              "display": "12 FTE",
+              "status": "unk"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EN - MSTS",
+              "org_level": "Division",
+              "site": null,
+              "value": null,
+              "display": "85 FTE",
+              "status": "unk"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EM - Marine Systems",
+              "org_level": "Division",
+              "site": null,
+              "value": null,
+              "display": "1 FTE",
+              "status": "unk"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EB - BaPS Engr",
+              "org_level": "Division",
+              "site": null,
+              "value": null,
+              "display": "222 FTE",
+              "status": "unk"
+            }
+          ]
+        },
+        {
+          "indicator_id": "35",
+          "metric_name": "Demand Volatility | Variance (WLF)",
+          "records": [
+            {
+              "reporting_date": "2026-07-01",
+              "org": "E - Engineering & Science",
+              "org_level": "Sector",
+              "site": null,
+              "value": -161.21,
+              "display": "-161 FTE | -1.7%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EX - NIC",
+              "org_level": "Division",
+              "site": null,
+              "value": 18.39,
+              "display": "18 FTE | 0.67%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EP - E&S SECTOR ENGINEERING",
+              "org_level": "Division",
+              "site": null,
+              "value": -62.78,
+              "display": "-63 FTE | -13.82%",
+              "status": "At-Risk"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EN - MSTS",
+              "org_level": "Division",
+              "site": null,
+              "value": -34.22,
+              "display": "-34 FTE | -1.77%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EM - Marine Systems",
+              "org_level": "Division",
+              "site": null,
+              "value": 70.23,
+              "display": "70 FTE | 19.25%",
+              "status": "At-Risk"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EB - BaPS Engr",
+              "org_level": "Division",
+              "site": null,
+              "value": -152.82,
+              "display": "-153 FTE | -3.82%",
+              "status": "Warning"
+            }
+          ]
+        },
+        {
+          "indicator_id": "31",
+          "metric_name": "Demand to Actuals | Variance (WLF)",
+          "records": [
+            {
+              "reporting_date": "2026-07-01",
+              "org": "E - Engineering & Science",
+              "org_level": "Sector",
+              "site": null,
+              "value": 1624.25,
+              "display": "1624 FTE | 83%",
+              "status": "At-Risk"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EX - NIC",
+              "org_level": "Division",
+              "site": null,
+              "value": 533.36,
+              "display": "533 FTE | 80%",
+              "status": "At-Risk"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EP - E&S SECTOR ENGINEERING",
+              "org_level": "Division",
+              "site": null,
+              "value": 139.85,
+              "display": "140 FTE | 68%",
+              "status": "At-Risk"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EN - MSTS",
+              "org_level": "Division",
+              "site": null,
+              "value": 291.21,
+              "display": "291 FTE | 84%",
+              "status": "At-Risk"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EM - Marine Systems",
+              "org_level": "Division",
+              "site": null,
+              "value": 23.89,
+              "display": "24 FTE | 95%",
+              "status": "At-Risk"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EB - BaPS Engr",
+              "org_level": "Division",
+              "site": null,
+              "value": 635.94,
+              "display": "636 FTE | 84%",
+              "status": "At-Risk"
+            }
+          ]
+        },
+        {
+          "indicator_id": "78",
+          "metric_name": "Forecast Late to Need (WLF)",
+          "records": [
+            {
+              "reporting_date": "2026-07-01",
+              "org": "E - Engineering & Science",
+              "org_level": "Sector",
+              "site": null,
+              "value": null,
+              "display": "443 FTE",
+              "status": "unk"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EX - NIC",
+              "org_level": "Division",
+              "site": null,
+              "value": null,
+              "display": "138 FTE",
+              "status": "unk"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EP - E&S SECTOR ENGINEERING",
+              "org_level": "Division",
+              "site": null,
+              "value": null,
+              "display": "4 FTE",
+              "status": "unk"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EN - MSTS",
+              "org_level": "Division",
+              "site": null,
+              "value": null,
+              "display": "125 FTE",
+              "status": "unk"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EM - Marine Systems",
+              "org_level": "Division",
+              "site": null,
+              "value": null,
+              "display": "2 FTE",
+              "status": "unk"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EB - BaPS Engr",
+              "org_level": "Division",
+              "site": null,
+              "value": null,
+              "display": "173 FTE",
+              "status": "unk"
+            }
+          ]
+        },
+        {
+          "indicator_id": "36",
+          "metric_name": "Staff Movement (SAP)",
+          "records": [
+            {
+              "reporting_date": "2026-07-01",
+              "org": "E - Engineering & Science",
+              "org_level": "Sector",
+              "site": null,
+              "value": 10366.0,
+              "display": "-513 HC",
+              "status": "unk"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EX - NIC",
+              "org_level": "Division",
+              "site": null,
+              "value": 2766.0,
+              "display": "-75 HC",
+              "status": "unk"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EP - E&S SECTOR ENGINEERING",
+              "org_level": "Division",
+              "site": null,
+              "value": 590.0,
+              "display": "0 HC",
+              "status": "unk"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EN - MSTS",
+              "org_level": "Division",
+              "site": null,
+              "value": 1955.0,
+              "display": "-59 HC",
+              "status": "unk"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EM - Marine Systems",
+              "org_level": "Division",
+              "site": null,
+              "value": 582.0,
+              "display": "-5 HC",
+              "status": "unk"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EH - Homerm StaffAdm",
+              "org_level": "Division",
+              "site": null,
+              "value": 6.0,
+              "display": "-3 HC",
+              "status": "unk"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EB - BaPS Engr",
+              "org_level": "Division",
+              "site": null,
+              "value": 4471.0,
+              "display": "-395 HC",
+              "status": "unk"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "driver_id": "4",
+      "driver_name": "Workforce Health",
+      "bucket_id": "1",
+      "records": [
+        {
+          "org": "E - Engineering & Science",
+          "reporting_date": "2026-07-01",
+          "score": 2.66666666666666,
+          "status": "Healthy"
+        },
+        {
+          "org": "EB - AMSD Engr",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "EB - BaPS Engr",
+          "reporting_date": "2026-07-01",
+          "score": 3.0,
+          "status": "Healthy"
+        },
+        {
+          "org": "EH - Homerm StaffAdm",
+          "reporting_date": "2026-07-01",
+          "score": 2.0,
+          "status": "Warning"
+        },
+        {
+          "org": "EM - MLSS",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "EM - Marine Systems",
+          "reporting_date": "2026-07-01",
+          "score": 2.33333333333333,
+          "status": "Warning"
+        },
+        {
+          "org": "EN - MSTS",
+          "reporting_date": "2026-07-01",
+          "score": 2.33333333333333,
+          "status": "Warning"
+        },
+        {
+          "org": "EN - NTSD",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "EP - E&S SECTOR ENGINEERING",
+          "reporting_date": "2026-07-01",
+          "score": 2.33333333333333,
+          "status": "Warning"
+        },
+        {
+          "org": "EV - Mission Next Engineering",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "EX - NIC",
+          "reporting_date": "2026-07-01",
+          "score": 2.66666666666666,
+          "status": "Healthy"
+        },
+        {
+          "org": "EX - NIS",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "MEC",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "Other",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        }
+      ],
+      "indicators": [
+        {
+          "indicator_id": "73",
+          "metric_name": "% Staff with Mentors (Workday)",
+          "records": [
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EX - NIC",
+              "org_level": "Division",
+              "site": null,
+              "value": 59.2,
+              "display": "59.2%",
+              "status": "Warning"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EP - E&S SECTOR ENGINEERING",
+              "org_level": "Division",
+              "site": null,
+              "value": 30.0,
+              "display": "30.0%",
+              "status": "At-Risk"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EN - MSTS",
+              "org_level": "Division",
+              "site": null,
+              "value": 29.9,
+              "display": "29.9%",
+              "status": "At-Risk"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EM - Marine Systems",
+              "org_level": "Division",
+              "site": null,
+              "value": 24.9,
+              "display": "24.9%",
+              "status": "At-Risk"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EB - BaPS Engr",
+              "org_level": "Division",
+              "site": null,
+              "value": 65.6,
+              "display": "65.6%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "E - Engineering & Science",
+              "org_level": "Division",
+              "site": null,
+              "value": 53.0,
+              "display": "53.0%",
+              "status": "Warning"
+            }
+          ]
+        },
+        {
+          "indicator_id": "1",
+          "metric_name": "EWW (SAP)",
+          "records": [
+            {
+              "reporting_date": "2026-07-01",
+              "org": "E - Engineering & Science",
+              "org_level": "Sector",
+              "site": null,
+              "value": 265.48,
+              "display": "265 FTE | 2.74%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EX - NIC",
+              "org_level": "Division",
+              "site": null,
+              "value": 51.24,
+              "display": "51 FTE | 1.99%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EP - E&S SECTOR ENGINEERING",
+              "org_level": "Division",
+              "site": null,
+              "value": 58.7,
+              "display": "59 FTE | 10.3%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EN - MSTS",
+              "org_level": "Division",
+              "site": null,
+              "value": 46.84,
+              "display": "47 FTE | 2.59%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EM - Marine Systems",
+              "org_level": "Division",
+              "site": null,
+              "value": 12.57,
+              "display": "13 FTE | 2.34%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EH - Homerm StaffAdm",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.23,
+              "display": "0 FTE | 4.23%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EB - BaPS Engr",
+              "org_level": "Division",
+              "site": null,
+              "value": 95.91,
+              "display": "96 FTE | 2.29%",
+              "status": "Healthy"
+            }
+          ]
+        },
+        {
+          "indicator_id": "38",
+          "metric_name": "In-Between Assignments (SAP)",
+          "records": [
+            {
+              "reporting_date": "2026-07-01",
+              "org": "E - Engineering & Science",
+              "org_level": "Sector",
+              "site": null,
+              "value": 86.82,
+              "display": "87 FTE | 0.9%",
+              "status": "unk"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EX - NIC",
+              "org_level": "Division",
+              "site": null,
+              "value": 17.16,
+              "display": "17 FTE | 0.67%",
+              "status": "unk"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EP - E&S SECTOR ENGINEERING",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.14,
+              "display": "0 FTE | 0.02%",
+              "status": "unk"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EN - MSTS",
+              "org_level": "Division",
+              "site": null,
+              "value": 2.99,
+              "display": "3 FTE | 0.17%",
+              "status": "unk"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EM - Marine Systems",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.33,
+              "display": "0 FTE | 0.06%",
+              "status": "unk"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EH - Homerm StaffAdm",
+              "org_level": "Division",
+              "site": null,
+              "value": null,
+              "display": "",
+              "status": "Not Available"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EB - BaPS Engr",
+              "org_level": "Division",
+              "site": null,
+              "value": 66.2,
+              "display": "66 FTE | 1.58%",
+              "status": "unk"
+            }
+          ]
+        },
+        {
+          "indicator_id": "3",
+          "metric_name": "UCOT (SAP)",
+          "records": [
+            {
+              "reporting_date": "2026-07-01",
+              "org": "E - Engineering & Science",
+              "org_level": "Sector",
+              "site": null,
+              "value": 35.5,
+              "display": "36 FTE | 0.34%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EX - NIC",
+              "org_level": "Division",
+              "site": null,
+              "value": 15.64,
+              "display": "16 FTE | 0.56%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EP - E&S SECTOR ENGINEERING",
+              "org_level": "Division",
+              "site": null,
+              "value": 2.69,
+              "display": "3 FTE | 0.46%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EN - MSTS",
+              "org_level": "Division",
+              "site": null,
+              "value": 5.16,
+              "display": "5 FTE | 0.26%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EM - Marine Systems",
+              "org_level": "Division",
+              "site": null,
+              "value": 2.55,
+              "display": "3 FTE | 0.43%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EH - Homerm StaffAdm",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.3,
+              "display": "0 FTE | 4.72%",
+              "status": "At-Risk"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EB - BaPS Engr",
+              "org_level": "Division",
+              "site": null,
+              "value": 9.16,
+              "display": "9 FTE | 0.2%",
+              "status": "Healthy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "driver_id": "5",
+      "driver_name": "Systems Engineering",
+      "bucket_id": "2",
+      "records": [
+        {
+          "org": "E - Engineering & Science",
+          "reporting_date": "2026-06-01",
+          "score": 3.0,
+          "status": "Healthy"
+        },
+        {
+          "org": "EB - AMSD Engr",
+          "reporting_date": "2026-06-01",
+          "score": 3.0,
+          "status": "Healthy"
+        },
+        {
+          "org": "EB - BaPS Engr",
+          "reporting_date": "2026-06-01",
+          "score": 2.0,
+          "status": "Warning"
+        },
+        {
+          "org": "EH - Homerm StaffAdm",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "EM - MLSS",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "EM - Marine Systems",
+          "reporting_date": "2026-06-01",
+          "score": 2.0,
+          "status": "Warning"
+        },
+        {
+          "org": "EN - MSTS",
+          "reporting_date": "2026-06-01",
+          "score": 3.0,
+          "status": "Healthy"
+        },
+        {
+          "org": "EN - NTSD",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "EP - E&S SECTOR ENGINEERING",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "EV - Mission Next Engineering",
+          "reporting_date": "2026-06-01",
+          "score": 1.0,
+          "status": "At-Risk"
+        },
+        {
+          "org": "EX - NIC",
+          "reporting_date": "2026-06-01",
+          "score": 3.0,
+          "status": "Healthy"
+        },
+        {
+          "org": "EX - NIS",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "MEC",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "Other",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        }
+      ],
+      "indicators": [
+        {
+          "indicator_id": "26",
+          "metric_name": "Engineering Lead Assessment (EMR)",
+          "records": [
+            {
+              "reporting_date": "2026-06-01",
+              "org": "E - Engineering & Science",
+              "org_level": "Sector",
+              "site": null,
+              "value": 0.48,
+              "display": "48%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EX - NIC",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.63,
+              "display": "63%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EV - Mission Next Engineering",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.26,
+              "display": "26%",
+              "status": "At-Risk"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EN - MSTS",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.48,
+              "display": "48%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EM - Marine Systems",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.55,
+              "display": "55%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EB - BaPS Engr",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.41,
+              "display": "41%",
+              "status": "At-Risk"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EB - AMSD Engr",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.52,
+              "display": "52%",
+              "status": "Healthy"
+            }
+          ]
+        },
+        {
+          "indicator_id": "59",
+          "metric_name": "Interface Maturity (TBD)",
+          "records": [
+            {
+              "reporting_date": "2026-07-01",
+              "org": "E - Engineering & Science",
+              "org_level": "Sector",
+              "site": null,
+              "value": null,
+              "display": "NULL",
+              "status": "unk"
+            }
+          ]
+        },
+        {
+          "indicator_id": "23",
+          "metric_name": "SE Requirements Volatility (EMR)",
+          "records": [
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EX - NIC",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.88,
+              "display": "88%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EV - Mission Next Engineering",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.12,
+              "display": "12%",
+              "status": "At-Risk"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EN - MSTS",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.56,
+              "display": "56%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EM - Marine Systems",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.29,
+              "display": "29%",
+              "status": "At-Risk"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EB - BaPS Engr",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.33,
+              "display": "33%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EB - AMSD Engr",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.92,
+              "display": "92%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "E - Engineering & Science",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.5,
+              "display": "50%",
+              "status": "Healthy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "driver_id": "6",
+      "driver_name": "Hardware Design",
+      "bucket_id": "2",
+      "records": [
+        {
+          "org": "E - Engineering & Science",
+          "reporting_date": "2026-07-01",
+          "score": 2.0,
+          "status": "Warning"
+        },
+        {
+          "org": "EB - AMSD Engr",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "EB - BaPS Engr",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "EH - Homerm StaffAdm",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "EM - MLSS",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "EM - Marine Systems",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "EN - MSTS",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "EN - NTSD",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "EP - E&S SECTOR ENGINEERING",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "EV - Mission Next Engineering",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "EX - NIC",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "EX - NIS",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "MEC",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "Other",
+          "reporting_date": "2026-07-01",
+          "score": 2.72727272727272,
+          "status": "Healthy"
+        }
+      ],
+      "indicators": [
+        {
+          "indicator_id": "61",
+          "metric_name": "Defect Volatility",
+          "records": [
+            {
+              "reporting_date": "2026-07-01",
+              "org": "Other",
+              "org_level": "Site",
+              "site": "XET",
+              "value": 0.0141,
+              "display": "1.41%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "Other",
+              "org_level": "Site",
+              "site": "WH",
+              "value": 0.0065,
+              "display": "0.65%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "Other",
+              "org_level": "Site",
+              "site": "TRY",
+              "value": 0.0,
+              "display": "0.00%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "Other",
+              "org_level": "Site",
+              "site": "SYK",
+              "value": 0.0102,
+              "display": "1.02%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "Other",
+              "org_level": "Site",
+              "site": "SVL",
+              "value": 0.0,
+              "display": "0.00%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "Other",
+              "org_level": "Site",
+              "site": "SLC",
+              "value": 0.0,
+              "display": "0.00%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "Other",
+              "org_level": "Site",
+              "site": "RM",
+              "value": 0.0014,
+              "display": "0.14%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "Other",
+              "org_level": "Site",
+              "site": "CHO",
+              "value": 0.0014,
+              "display": "0.14%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "Other",
+              "org_level": "Site",
+              "site": "BWI",
+              "value": 0.0,
+              "display": "0.00%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "Other",
+              "org_level": "Site",
+              "site": "APK",
+              "value": 0.0064,
+              "display": "0.64%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "Other",
+              "org_level": "Site",
+              "site": "AMH",
+              "value": 0.0063,
+              "display": "0.63%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "E - Engineering & Science",
+              "org_level": "Site",
+              "site": "MS",
+              "value": 0.0031,
+              "display": "0.31%",
+              "status": "Healthy"
+            }
+          ]
+        },
+        {
+          "indicator_id": "60",
+          "metric_name": "Drawing Volatility",
+          "records": [
+            {
+              "reporting_date": "2026-07-01",
+              "org": "Other",
+              "org_level": "Site",
+              "site": "XET",
+              "value": 0.0161,
+              "display": "1.61%",
+              "status": "At-Risk"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "Other",
+              "org_level": "Site",
+              "site": "WH",
+              "value": 0.0092,
+              "display": "0.92%",
+              "status": "At-Risk"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "Other",
+              "org_level": "Site",
+              "site": "TRY",
+              "value": 0.0,
+              "display": "0.00%",
+              "status": "At-Risk"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "Other",
+              "org_level": "Site",
+              "site": "SYK",
+              "value": 0.0136,
+              "display": "1.36%",
+              "status": "At-Risk"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "Other",
+              "org_level": "Site",
+              "site": "SVL",
+              "value": 0.0,
+              "display": "0.00%",
+              "status": "At-Risk"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "Other",
+              "org_level": "Site",
+              "site": "SLC",
+              "value": 0.0,
+              "display": "0.00%",
+              "status": "At-Risk"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "Other",
+              "org_level": "Site",
+              "site": "RM",
+              "value": 0.0021,
+              "display": "0.21%",
+              "status": "At-Risk"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "Other",
+              "org_level": "Site",
+              "site": "CHO",
+              "value": 0.0014,
+              "display": "0.14%",
+              "status": "At-Risk"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "Other",
+              "org_level": "Site",
+              "site": "BWI",
+              "value": 0.0002,
+              "display": "0.02%",
+              "status": "At-Risk"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "Other",
+              "org_level": "Site",
+              "site": "APK",
+              "value": 0.0064,
+              "display": "0.64%",
+              "status": "At-Risk"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "Other",
+              "org_level": "Site",
+              "site": "AMH",
+              "value": 0.0111,
+              "display": "1.11%",
+              "status": "At-Risk"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "E - Engineering & Science",
+              "org_level": "Site",
+              "site": "MS",
+              "value": 0.0044,
+              "display": "0.44%",
+              "status": "At-Risk"
+            }
+          ]
+        },
+        {
+          "indicator_id": "62",
+          "metric_name": "On-Time To Need - Dwg Rel (mPLM)",
+          "records": [
+            {
+              "reporting_date": "2026-07-01",
+              "org": "Other",
+              "org_level": "Site",
+              "site": "XET",
+              "value": 1.0,
+              "display": "100%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "Other",
+              "org_level": "Site",
+              "site": "WH",
+              "value": 1.0,
+              "display": "100%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "Other",
+              "org_level": "Site",
+              "site": "SYK",
+              "value": 1.0,
+              "display": "100%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "Other",
+              "org_level": "Site",
+              "site": "SVL",
+              "value": 1.0,
+              "display": "100%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "Other",
+              "org_level": "Site",
+              "site": "SLC",
+              "value": 1.0,
+              "display": "100%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "Other",
+              "org_level": "Site",
+              "site": "RM",
+              "value": 0.8929,
+              "display": "89%",
+              "status": "Warning"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "Other",
+              "org_level": "Site",
+              "site": "OCE",
+              "value": 1.0,
+              "display": "100%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "Other",
+              "org_level": "Site",
+              "site": "CHO",
+              "value": 1.0,
+              "display": "100%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "Other",
+              "org_level": "Site",
+              "site": "BWI",
+              "value": 0.7481,
+              "display": "75%",
+              "status": "At-Risk"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "Other",
+              "org_level": "Site",
+              "site": "APK",
+              "value": 1.0,
+              "display": "100%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "Other",
+              "org_level": "Site",
+              "site": "AMH",
+              "value": 0.9,
+              "display": "90%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "E - Engineering & Science",
+              "org_level": "Site",
+              "site": "TOTAL",
+              "value": 0.8557,
+              "display": "86%",
+              "status": "Warning"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "Other",
+              "org_level": "Site",
+              "site": "SD",
+              "value": 0.8182,
+              "display": "82%",
+              "status": "At-Risk"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "Other",
+              "org_level": "Site",
+              "site": "SAC",
+              "value": 0.9744,
+              "display": "97%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2025-12-01",
+              "org": "Other",
+              "org_level": "Site",
+              "site": "TRY",
+              "value": 1.0,
+              "display": "100%",
+              "status": "Healthy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "driver_id": "16",
+      "driver_name": "Software",
+      "bucket_id": "2",
+      "records": [
+        {
+          "org": "E - Engineering & Science",
+          "reporting_date": "2026-02-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "EB - AMSD Engr",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "EB - BaPS Engr",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "EH - Homerm StaffAdm",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "EM - MLSS",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "EM - Marine Systems",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "EN - MSTS",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "EN - NTSD",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "EP - E&S SECTOR ENGINEERING",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "EV - Mission Next Engineering",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "EX - NIC",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "EX - NIS",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "MEC",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "Other",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        }
+      ],
+      "indicators": [
+        {
+          "indicator_id": "64",
+          "metric_name": "Build Duration (TBD)",
+          "records": [
+            {
+              "reporting_date": "2026-07-01",
+              "org": "E - Engineering & Science",
+              "org_level": "Sector",
+              "site": null,
+              "value": null,
+              "display": "NULL",
+              "status": "unk"
+            }
+          ]
+        },
+        {
+          "indicator_id": "65",
+          "metric_name": "Code Complexity (TBD)",
+          "records": [
+            {
+              "reporting_date": "2026-07-01",
+              "org": "E - Engineering & Science",
+              "org_level": "Sector",
+              "site": null,
+              "value": null,
+              "display": "NULL",
+              "status": "unk"
+            }
+          ]
+        },
+        {
+          "indicator_id": "63",
+          "metric_name": "Static Code Defect Density (TBD)",
+          "records": [
+            {
+              "reporting_date": "2026-07-01",
+              "org": "E - Engineering & Science",
+              "org_level": "Sector",
+              "site": null,
+              "value": null,
+              "display": "NULL",
+              "status": "unk"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "driver_id": "17",
+      "driver_name": "Milestone Review",
+      "bucket_id": "2",
+      "records": [
+        {
+          "org": "E - Engineering & Science",
+          "reporting_date": "2026-07-01",
+          "score": 1.0,
+          "status": "At-Risk"
+        },
+        {
+          "org": "EB - AMSD Engr",
+          "reporting_date": "2026-07-01",
+          "score": 1.0,
+          "status": "At-Risk"
+        },
+        {
+          "org": "EB - BaPS Engr",
+          "reporting_date": "2026-07-01",
+          "score": 1.0,
+          "status": "At-Risk"
+        },
+        {
+          "org": "EH - Homerm StaffAdm",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "EM - MLSS",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "EM - Marine Systems",
+          "reporting_date": "2026-07-01",
+          "score": 1.0,
+          "status": "At-Risk"
+        },
+        {
+          "org": "EN - MSTS",
+          "reporting_date": "2026-07-01",
+          "score": 1.0,
+          "status": "At-Risk"
+        },
+        {
+          "org": "EN - NTSD",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "EP - E&S SECTOR ENGINEERING",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "EV - Mission Next Engineering",
+          "reporting_date": "2026-07-01",
+          "score": 1.0,
+          "status": "At-Risk"
+        },
+        {
+          "org": "EX - NIC",
+          "reporting_date": "2026-07-01",
+          "score": 1.0,
+          "status": "At-Risk"
+        },
+        {
+          "org": "EX - NIS",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "MEC",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "Other",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        }
+      ],
+      "indicators": [
+        {
+          "indicator_id": "69",
+          "metric_name": "Milestone Compliance (EMR)",
+          "records": [
+            {
+              "reporting_date": "2026-07-01",
+              "org": "E - Engineering & Science",
+              "org_level": "Sector",
+              "site": null,
+              "value": 0.182904068682344,
+              "display": "18.3%",
+              "status": "At-Risk"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EX - NIC",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.581151832460733,
+              "display": "58.1%",
+              "status": "At-Risk"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EV - Mission Next Engineering",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.112211221122112,
+              "display": "11.2%",
+              "status": "At-Risk"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EN - MSTS",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.213776722090261,
+              "display": "21.4%",
+              "status": "At-Risk"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EM - Marine Systems",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.260416666666667,
+              "display": "26.0%",
+              "status": "At-Risk"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EB - BaPS Engr",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.0744021257750221,
+              "display": "7.4%",
+              "status": "At-Risk"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EB - AMSD Engr",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.0605326876513317,
+              "display": "6.1%",
+              "status": "At-Risk"
+            }
+          ]
+        },
+        {
+          "indicator_id": "68",
+          "metric_name": "Milestone Maturity (EMR)",
+          "records": [
+            {
+              "reporting_date": "2026-07-01",
+              "org": "E - Engineering & Science",
+              "org_level": "Sector",
+              "site": null,
+              "value": 0.339920948616601,
+              "display": "34.0%",
+              "status": "Not Available"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "Other",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.192307692307692,
+              "display": "19.2%",
+              "status": "Not Available"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EX - NIC",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.37,
+              "display": "37.0%",
+              "status": "Not Available"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EV - Mission Next Engineering",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.111111111111111,
+              "display": "11.1%",
+              "status": "Not Available"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EN - MSTS",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.382352941176471,
+              "display": "38.2%",
+              "status": "Not Available"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EM - Marine Systems",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.0,
+              "display": "0.0%",
+              "status": "Not Available"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EB - BaPS Engr",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.238095238095238,
+              "display": "23.8%",
+              "status": "Not Available"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EB - AMSD Engr",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.333333333333333,
+              "display": "33.3%",
+              "status": "Not Available"
+            }
+          ]
+        },
+        {
+          "indicator_id": "70",
+          "metric_name": "Milestone Quality (EMR)",
+          "records": [
+            {
+              "reporting_date": "2026-07-01",
+              "org": "E - Engineering & Science",
+              "org_level": "Sector",
+              "site": null,
+              "value": null,
+              "display": "NULL",
+              "status": "unk"
+            }
+          ]
+        },
+        {
+          "indicator_id": "77",
+          "metric_name": "SAARR Event Compliance Non-Priority",
+          "records": [
+            {
+              "reporting_date": "2026-07-01",
+              "org": "E - Engineering & Science",
+              "org_level": "Sector",
+              "site": null,
+              "value": null,
+              "display": "93%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EX - NIC",
+              "org_level": "Division",
+              "site": null,
+              "value": null,
+              "display": "92%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EN - MSTS",
+              "org_level": "Division",
+              "site": null,
+              "value": null,
+              "display": "93%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EB - BaPS Engr",
+              "org_level": "Division",
+              "site": null,
+              "value": null,
+              "display": "97%",
+              "status": "Healthy"
+            }
+          ]
+        },
+        {
+          "indicator_id": "74",
+          "metric_name": "SAARR Event Compliance Priority",
+          "records": [
+            {
+              "reporting_date": "2026-07-01",
+              "org": "E - Engineering & Science",
+              "org_level": "Sector",
+              "site": null,
+              "value": null,
+              "display": "89%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EX - NIC",
+              "org_level": "Division",
+              "site": null,
+              "value": null,
+              "display": "86%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EN - MSTS",
+              "org_level": "Division",
+              "site": null,
+              "value": null,
+              "display": "100%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EB - BaPS Engr",
+              "org_level": "Division",
+              "site": null,
+              "value": null,
+              "display": "75%",
+              "status": "Warning"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "driver_id": "7",
+      "driver_name": "Tools and Automation",
+      "bucket_id": "2",
+      "records": [
+        {
+          "org": "E - Engineering & Science",
+          "reporting_date": "2026-06-01",
+          "score": 2.0,
+          "status": "Warning"
+        },
+        {
+          "org": "EB - AMSD Engr",
+          "reporting_date": "2026-06-01",
+          "score": 3.0,
+          "status": "Healthy"
+        },
+        {
+          "org": "EB - BaPS Engr",
+          "reporting_date": "2026-06-01",
+          "score": 1.0,
+          "status": "At-Risk"
+        },
+        {
+          "org": "EH - Homerm StaffAdm",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "EM - MLSS",
+          "reporting_date": "2025-12-01",
+          "score": 2.0,
+          "status": "Warning"
+        },
+        {
+          "org": "EM - Marine Systems",
+          "reporting_date": "2026-06-01",
+          "score": 1.0,
+          "status": "At-Risk"
+        },
+        {
+          "org": "EN - MSTS",
+          "reporting_date": "2026-06-01",
+          "score": 2.0,
+          "status": "Warning"
+        },
+        {
+          "org": "EN - NTSD",
+          "reporting_date": "2025-12-01",
+          "score": 2.0,
+          "status": "Warning"
+        },
+        {
+          "org": "EP - E&S SECTOR ENGINEERING",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "EV - Mission Next Engineering",
+          "reporting_date": "2026-06-01",
+          "score": 1.0,
+          "status": "At-Risk"
+        },
+        {
+          "org": "EX - NIC",
+          "reporting_date": "2026-06-01",
+          "score": 2.0,
+          "status": "Warning"
+        },
+        {
+          "org": "EX - NIS",
+          "reporting_date": "2025-12-01",
+          "score": 3.0,
+          "status": "Healthy"
+        },
+        {
+          "org": "MEC",
+          "reporting_date": "2025-12-01",
+          "score": 1.0,
+          "status": "At-Risk"
+        },
+        {
+          "org": "Other",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        }
+      ],
+      "indicators": [
+        {
+          "indicator_id": "27",
+          "metric_name": "EMR Compliance (EMR)",
+          "records": [
+            {
+              "reporting_date": "2026-06-01",
+              "org": "E - Engineering & Science",
+              "org_level": "Sector",
+              "site": null,
+              "value": 0.776277724204436,
+              "display": "78%",
+              "status": "Warning"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EX - NIC",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.864628820960699,
+              "display": "86%",
+              "status": "Warning"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EV - Mission Next Engineering",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.478571428571429,
+              "display": "48%",
+              "status": "At-Risk"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EN - MSTS",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.791932059447983,
+              "display": "79%",
+              "status": "Warning"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EM - Marine Systems",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.619718309859155,
+              "display": "62%",
+              "status": "At-Risk"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EB - BaPS Engr",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.714285714285714,
+              "display": "71%",
+              "status": "At-Risk"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EB - AMSD Engr",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.976190476190476,
+              "display": "98%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2025-12-01",
+              "org": "MEC",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.0,
+              "display": "0%",
+              "status": "At-Risk"
+            },
+            {
+              "reporting_date": "2025-12-01",
+              "org": "EX - NIS",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.990697674418605,
+              "display": "99%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2025-12-01",
+              "org": "EN - NTSD",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.884057971014493,
+              "display": "88%",
+              "status": "Warning"
+            },
+            {
+              "reporting_date": "2025-12-01",
+              "org": "EM - MLSS",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.89908256880734,
+              "display": "90%",
+              "status": "Warning"
+            }
+          ]
+        },
+        {
+          "indicator_id": "37",
+          "metric_name": "EMR Waivers (EMR)",
+          "records": [
+            {
+              "reporting_date": "2026-06-01",
+              "org": "E - Engineering & Science",
+              "org_level": "Sector",
+              "site": null,
+              "value": 0.8711,
+              "display": "87%",
+              "status": "At-Risk"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EX - NIC",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.8977,
+              "display": "90%",
+              "status": "At-Risk"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EV - Mission Next Engineering",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.8658,
+              "display": "87%",
+              "status": "At-Risk"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EN - MSTS",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.8745,
+              "display": "87%",
+              "status": "At-Risk"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EM - Marine Systems",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.9187,
+              "display": "92%",
+              "status": "At-Risk"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EB - BaPS Engr",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.8455,
+              "display": "85%",
+              "status": "At-Risk"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EB - AMSD Engr",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.8258,
+              "display": "83%",
+              "status": "At-Risk"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "driver_id": "10",
+      "driver_name": "Program Cost",
+      "bucket_id": "3",
+      "records": [
+        {
+          "org": "E - Engineering & Science",
+          "reporting_date": "2026-06-01",
+          "score": 1.0,
+          "status": "At-Risk"
+        },
+        {
+          "org": "EB - AMSD Engr",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "EB - BaPS Engr",
+          "reporting_date": "2026-06-01",
+          "score": 1.0,
+          "status": "At-Risk"
+        },
+        {
+          "org": "EH - Homerm StaffAdm",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "EM - MLSS",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "EM - Marine Systems",
+          "reporting_date": "2026-06-01",
+          "score": 1.0,
+          "status": "At-Risk"
+        },
+        {
+          "org": "EN - MSTS",
+          "reporting_date": "2026-06-01",
+          "score": 1.0,
+          "status": "At-Risk"
+        },
+        {
+          "org": "EN - NTSD",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "EP - E&S SECTOR ENGINEERING",
+          "reporting_date": "2026-06-01",
+          "score": 1.0,
+          "status": "At-Risk"
+        },
+        {
+          "org": "EV - Mission Next Engineering",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "EX - NIC",
+          "reporting_date": "2026-06-01",
+          "score": 1.0,
+          "status": "At-Risk"
+        },
+        {
+          "org": "EX - NIS",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "MEC",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "Other",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        }
+      ],
+      "indicators": [
+        {
+          "indicator_id": "76",
+          "metric_name": "EAC Volatility",
+          "records": [
+            {
+              "reporting_date": "2026-06-01",
+              "org": "E - Engineering & Science",
+              "org_level": "Sector",
+              "site": null,
+              "value": null,
+              "display": "79.0%",
+              "status": "At-Risk"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EX - NIC",
+              "org_level": "Division",
+              "site": null,
+              "value": null,
+              "display": "87.8%",
+              "status": "At-Risk"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EP - E&S SECTOR ENGINEERING",
+              "org_level": "Division",
+              "site": null,
+              "value": null,
+              "display": "83.3%",
+              "status": "At-Risk"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EN - MSTS",
+              "org_level": "Division",
+              "site": null,
+              "value": null,
+              "display": "81.3%",
+              "status": "At-Risk"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EM - Marine Systems",
+              "org_level": "Division",
+              "site": null,
+              "value": null,
+              "display": "91.2%",
+              "status": "At-Risk"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EB - BaPS Engr",
+              "org_level": "Division",
+              "site": null,
+              "value": null,
+              "display": "71.5%",
+              "status": "At-Risk"
+            }
+          ]
+        },
+        {
+          "indicator_id": "66",
+          "metric_name": "Engineering CAM CPI (COBRA)",
+          "records": [
+            {
+              "reporting_date": "2026-06-01",
+              "org": "E - Engineering & Science",
+              "org_level": "Sector",
+              "site": null,
+              "value": null,
+              "display": "62.6%",
+              "status": "At-Risk"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EX - NIC",
+              "org_level": "Division",
+              "site": null,
+              "value": null,
+              "display": "50.0%",
+              "status": "At-Risk"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EP - E&S SECTOR ENGINEERING",
+              "org_level": "Division",
+              "site": null,
+              "value": null,
+              "display": "50.0%",
+              "status": "At-Risk"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EN - MSTS",
+              "org_level": "Division",
+              "site": null,
+              "value": null,
+              "display": "70.4%",
+              "status": "At-Risk"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EM - Marine Systems",
+              "org_level": "Division",
+              "site": null,
+              "value": null,
+              "display": "45.7%",
+              "status": "At-Risk"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EB - BaPS Engr",
+              "org_level": "Division",
+              "site": null,
+              "value": null,
+              "display": "63.0%",
+              "status": "At-Risk"
+            }
+          ]
+        },
+        {
+          "indicator_id": "57",
+          "metric_name": "Program CPI (COBRA)",
+          "records": [
+            {
+              "reporting_date": "2026-06-01",
+              "org": "E - Engineering & Science",
+              "org_level": "Sector",
+              "site": null,
+              "value": null,
+              "display": "67.6%",
+              "status": "At-Risk"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EX - NIC",
+              "org_level": "Division",
+              "site": null,
+              "value": null,
+              "display": "65.2%",
+              "status": "At-Risk"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EP - E&S SECTOR ENGINEERING",
+              "org_level": "Division",
+              "site": null,
+              "value": null,
+              "display": "66.7%",
+              "status": "At-Risk"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EN - MSTS",
+              "org_level": "Division",
+              "site": null,
+              "value": null,
+              "display": "79.6%",
+              "status": "At-Risk"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EM - Marine Systems",
+              "org_level": "Division",
+              "site": null,
+              "value": null,
+              "display": "51.4%",
+              "status": "At-Risk"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EB - BaPS Engr",
+              "org_level": "Division",
+              "site": null,
+              "value": null,
+              "display": "63.8%",
+              "status": "At-Risk"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "driver_id": "11",
+      "driver_name": "Program Schedule",
+      "bucket_id": "3",
+      "records": [
+        {
+          "org": "E - Engineering & Science",
+          "reporting_date": "2026-06-01",
+          "score": 1.0,
+          "status": "At-Risk"
+        },
+        {
+          "org": "EB - AMSD Engr",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "EB - BaPS Engr",
+          "reporting_date": "2026-06-01",
+          "score": 1.0,
+          "status": "At-Risk"
+        },
+        {
+          "org": "EH - Homerm StaffAdm",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "EM - MLSS",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "EM - Marine Systems",
+          "reporting_date": "2026-06-01",
+          "score": 1.0,
+          "status": "At-Risk"
+        },
+        {
+          "org": "EN - MSTS",
+          "reporting_date": "2026-06-01",
+          "score": 1.0,
+          "status": "At-Risk"
+        },
+        {
+          "org": "EN - NTSD",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "EP - E&S SECTOR ENGINEERING",
+          "reporting_date": "2026-06-01",
+          "score": 1.0,
+          "status": "At-Risk"
+        },
+        {
+          "org": "EV - Mission Next Engineering",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "EX - NIC",
+          "reporting_date": "2026-06-01",
+          "score": 1.0,
+          "status": "At-Risk"
+        },
+        {
+          "org": "EX - NIS",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "MEC",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "Other",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        }
+      ],
+      "indicators": [
+        {
+          "indicator_id": "67",
+          "metric_name": "Engineering CAM SPI (COBRA)",
+          "records": [
+            {
+              "reporting_date": "2026-06-01",
+              "org": "E - Engineering & Science",
+              "org_level": "Sector",
+              "site": null,
+              "value": null,
+              "display": "59.6%",
+              "status": "At-Risk"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EX - NIC",
+              "org_level": "Division",
+              "site": null,
+              "value": null,
+              "display": "65.2%",
+              "status": "At-Risk"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EP - E&S SECTOR ENGINEERING",
+              "org_level": "Division",
+              "site": null,
+              "value": null,
+              "display": "61.1%",
+              "status": "At-Risk"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EN - MSTS",
+              "org_level": "Division",
+              "site": null,
+              "value": null,
+              "display": "59.2%",
+              "status": "At-Risk"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EM - Marine Systems",
+              "org_level": "Division",
+              "site": null,
+              "value": null,
+              "display": "62.9%",
+              "status": "At-Risk"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EB - BaPS Engr",
+              "org_level": "Division",
+              "site": null,
+              "value": null,
+              "display": "59.1%",
+              "status": "At-Risk"
+            }
+          ]
+        },
+        {
+          "indicator_id": "58",
+          "metric_name": "Program SPI (COBRA)",
+          "records": [
+            {
+              "reporting_date": "2026-06-01",
+              "org": "E - Engineering & Science",
+              "org_level": "Sector",
+              "site": null,
+              "value": null,
+              "display": "56.3%",
+              "status": "At-Risk"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EX - NIC",
+              "org_level": "Division",
+              "site": null,
+              "value": null,
+              "display": "50.0%",
+              "status": "At-Risk"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EP - E&S SECTOR ENGINEERING",
+              "org_level": "Division",
+              "site": null,
+              "value": null,
+              "display": "66.7%",
+              "status": "At-Risk"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EN - MSTS",
+              "org_level": "Division",
+              "site": null,
+              "value": null,
+              "display": "52.0%",
+              "status": "At-Risk"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EM - Marine Systems",
+              "org_level": "Division",
+              "site": null,
+              "value": null,
+              "display": "54.3%",
+              "status": "At-Risk"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EB - BaPS Engr",
+              "org_level": "Division",
+              "site": null,
+              "value": null,
+              "display": "62.2%",
+              "status": "At-Risk"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "driver_id": "12",
+      "driver_name": "Shared Metrics",
+      "bucket_id": "3",
+      "records": [
+        {
+          "org": "E - Engineering & Science",
+          "reporting_date": "2026-06-01",
+          "score": 2.85714285714285,
+          "status": "Healthy"
+        },
+        {
+          "org": "EB - AMSD Engr",
+          "reporting_date": "2026-06-01",
+          "score": 2.71428571428571,
+          "status": "Healthy"
+        },
+        {
+          "org": "EB - BaPS Engr",
+          "reporting_date": "2026-06-01",
+          "score": 2.85714285714285,
+          "status": "Healthy"
+        },
+        {
+          "org": "EH - Homerm StaffAdm",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "EM - MLSS",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "EM - Marine Systems",
+          "reporting_date": "2026-06-01",
+          "score": 2.42857142857142,
+          "status": "Warning"
+        },
+        {
+          "org": "EN - MSTS",
+          "reporting_date": "2026-06-01",
+          "score": 2.85714285714285,
+          "status": "Healthy"
+        },
+        {
+          "org": "EN - NTSD",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "EP - E&S SECTOR ENGINEERING",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "EV - Mission Next Engineering",
+          "reporting_date": "2026-06-01",
+          "score": 3.0,
+          "status": "Healthy"
+        },
+        {
+          "org": "EX - NIC",
+          "reporting_date": "2026-06-01",
+          "score": 3.0,
+          "status": "Healthy"
+        },
+        {
+          "org": "EX - NIS",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "MEC",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "Other",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        }
+      ],
+      "indicators": [
+        {
+          "indicator_id": "12",
+          "metric_name": "Customer Escapes (QAF)",
+          "records": [
+            {
+              "reporting_date": "2026-06-01",
+              "org": "E - Engineering & Science",
+              "org_level": "Sector",
+              "site": null,
+              "value": 1.0,
+              "display": "100.0%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EX - NIC",
+              "org_level": "Division",
+              "site": null,
+              "value": 1.0,
+              "display": "100.0%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EV - Mission Next Engineering",
+              "org_level": "Division",
+              "site": null,
+              "value": 1.0,
+              "display": "100.0%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EN - MSTS",
+              "org_level": "Division",
+              "site": null,
+              "value": 1.0,
+              "display": "100.0%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EM - Marine Systems",
+              "org_level": "Division",
+              "site": null,
+              "value": 1.0,
+              "display": "100.0%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EB - BaPS Engr",
+              "org_level": "Division",
+              "site": null,
+              "value": 1.0,
+              "display": "100.0%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EB - AMSD Engr",
+              "org_level": "Division",
+              "site": null,
+              "value": 1.0,
+              "display": "100.0%",
+              "status": "Healthy"
+            }
+          ]
+        },
+        {
+          "indicator_id": "13",
+          "metric_name": "Delivered Quality (QAF)",
+          "records": [
+            {
+              "reporting_date": "2026-06-01",
+              "org": "E - Engineering & Science",
+              "org_level": "Sector",
+              "site": null,
+              "value": 0.9759,
+              "display": "97.6%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EX - NIC",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.987,
+              "display": "98.7%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EV - Mission Next Engineering",
+              "org_level": "Division",
+              "site": null,
+              "value": 1.0,
+              "display": "100.0%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EN - MSTS",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.9848,
+              "display": "98.5%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EM - Marine Systems",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.9444,
+              "display": "94.4%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EB - BaPS Engr",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.9619,
+              "display": "96.2%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EB - AMSD Engr",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.9474,
+              "display": "94.7%",
+              "status": "Healthy"
+            }
+          ]
+        },
+        {
+          "indicator_id": "14",
+          "metric_name": "In-Process Quality (QAF)",
+          "records": [
+            {
+              "reporting_date": "2026-06-01",
+              "org": "E - Engineering & Science",
+              "org_level": "Sector",
+              "site": null,
+              "value": 0.9637,
+              "display": "96.4%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EX - NIC",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.9877,
+              "display": "98.8%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EV - Mission Next Engineering",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.9714,
+              "display": "97.1%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EN - MSTS",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.9783,
+              "display": "97.8%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EM - Marine Systems",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.9,
+              "display": "90.0%",
+              "status": "Warning"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EB - BaPS Engr",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.9412,
+              "display": "94.1%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EB - AMSD Engr",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.9286,
+              "display": "92.9%",
+              "status": "Warning"
+            }
+          ]
+        },
+        {
+          "indicator_id": "10",
+          "metric_name": "Overall Quality (IPRS)",
+          "records": [
+            {
+              "reporting_date": "2026-06-01",
+              "org": "E - Engineering & Science",
+              "org_level": "Sector",
+              "site": null,
+              "value": 0.97,
+              "display": "97.0%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EX - NIC",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.9888,
+              "display": "98.9%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EV - Mission Next Engineering",
+              "org_level": "Division",
+              "site": null,
+              "value": 1.0,
+              "display": "100.0%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EN - MSTS",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.9638,
+              "display": "96.4%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EM - Marine Systems",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.85,
+              "display": "85.0%",
+              "status": "Warning"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EB - BaPS Engr",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.9833,
+              "display": "98.3%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EB - AMSD Engr",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.9762,
+              "display": "97.6%",
+              "status": "Healthy"
+            }
+          ]
+        },
+        {
+          "indicator_id": "11",
+          "metric_name": "Overall Quality (QAF)",
+          "records": [
+            {
+              "reporting_date": "2026-06-01",
+              "org": "E - Engineering & Science",
+              "org_level": "Sector",
+              "site": null,
+              "value": 0.9721,
+              "display": "97.2%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EX - NIC",
+              "org_level": "Division",
+              "site": null,
+              "value": 1.0,
+              "display": "100.0%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EV - Mission Next Engineering",
+              "org_level": "Division",
+              "site": null,
+              "value": 1.0,
+              "display": "100.0%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EN - MSTS",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.9638,
+              "display": "96.4%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EM - Marine Systems",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.85,
+              "display": "85.0%",
+              "status": "Warning"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EB - BaPS Engr",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.9832,
+              "display": "98.3%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EB - AMSD Engr",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.9762,
+              "display": "97.6%",
+              "status": "Healthy"
+            }
+          ]
+        },
+        {
+          "indicator_id": "15",
+          "metric_name": "Significant-Defect Free (QAF)",
+          "records": [
+            {
+              "reporting_date": "2026-06-01",
+              "org": "E - Engineering & Science",
+              "org_level": "Sector",
+              "site": null,
+              "value": 1.0,
+              "display": "100.0%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EX - NIC",
+              "org_level": "Division",
+              "site": null,
+              "value": 1.0,
+              "display": "100.0%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EV - Mission Next Engineering",
+              "org_level": "Division",
+              "site": null,
+              "value": 1.0,
+              "display": "100.0%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EN - MSTS",
+              "org_level": "Division",
+              "site": null,
+              "value": 1.0,
+              "display": "100.0%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EM - Marine Systems",
+              "org_level": "Division",
+              "site": null,
+              "value": 1.0,
+              "display": "100.0%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EB - BaPS Engr",
+              "org_level": "Division",
+              "site": null,
+              "value": 1.0,
+              "display": "100.0%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EB - AMSD Engr",
+              "org_level": "Division",
+              "site": null,
+              "value": 1.0,
+              "display": "100.0%",
+              "status": "Healthy"
+            }
+          ]
+        },
+        {
+          "indicator_id": "16",
+          "metric_name": "Supplier Quality (QAF)",
+          "records": [
+            {
+              "reporting_date": "2026-06-01",
+              "org": "E - Engineering & Science",
+              "org_level": "Sector",
+              "site": null,
+              "value": 0.9231,
+              "display": "92.3%",
+              "status": "Warning"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EX - NIC",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.9643,
+              "display": "96.4%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EV - Mission Next Engineering",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.9565,
+              "display": "95.7%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EN - MSTS",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.912,
+              "display": "91.2%",
+              "status": "Warning"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EM - Marine Systems",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.8947,
+              "display": "89.5%",
+              "status": "Warning"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EB - BaPS Engr",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.9186,
+              "display": "91.9%",
+              "status": "Warning"
+            },
+            {
+              "reporting_date": "2026-06-01",
+              "org": "EB - AMSD Engr",
+              "org_level": "Division",
+              "site": null,
+              "value": 0.9048,
+              "display": "90.5%",
+              "status": "Warning"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "driver_id": "15",
+      "driver_name": "Organizational Financials",
+      "bucket_id": "4",
+      "records": [
+        {
+          "org": "E - Engineering & Science",
+          "reporting_date": "2026-07-01",
+          "score": 1.83333333333333,
+          "status": "Warning"
+        },
+        {
+          "org": "EB - AMSD Engr",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "EB - BaPS Engr",
+          "reporting_date": "2026-07-01",
+          "score": 2.0,
+          "status": "At-Risk"
+        },
+        {
+          "org": "EH - Homerm StaffAdm",
+          "reporting_date": "2026-07-01",
+          "score": 1.25,
+          "status": "Warning"
+        },
+        {
+          "org": "EM - MLSS",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "EM - Marine Systems",
+          "reporting_date": "2026-07-01",
+          "score": 2.0,
+          "status": "At-Risk"
+        },
+        {
+          "org": "EN - MSTS",
+          "reporting_date": "2026-07-01",
+          "score": 2.2,
+          "status": "Warning"
+        },
+        {
+          "org": "EN - NTSD",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "EP - E&S SECTOR ENGINEERING",
+          "reporting_date": "2026-07-01",
+          "score": 2.4,
+          "status": "At-Risk"
+        },
+        {
+          "org": "EV - Mission Next Engineering",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "EX - NIC",
+          "reporting_date": "2026-07-01",
+          "score": 2.4,
+          "status": "At-Risk"
+        },
+        {
+          "org": "EX - NIS",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "MEC",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        },
+        {
+          "org": "Other",
+          "reporting_date": "2026-07-01",
+          "score": 0.0,
+          "status": "Not Available"
+        }
+      ],
+      "indicators": [
+        {
+          "indicator_id": "42",
+          "metric_name": "Current OHR Forecast | Variance (NGRB)",
+          "records": [
+            {
+              "reporting_date": "2026-07-01",
+              "org": "E - Engineering & Science",
+              "org_level": "Sector",
+              "site": null,
+              "value": null,
+              "display": "17.8% | 0.1%",
+              "status": "Warning"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EX - NIC",
+              "org_level": "Division",
+              "site": null,
+              "value": null,
+              "display": "14% | -0.4%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EP - E&S SECTOR ENGINEERING",
+              "org_level": "Division",
+              "site": null,
+              "value": null,
+              "display": "20.4% | -1.9%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EN - MSTS",
+              "org_level": "Division",
+              "site": null,
+              "value": null,
+              "display": "19.4% | 0.5%",
+              "status": "Warning"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EM - Marine Systems",
+              "org_level": "Division",
+              "site": null,
+              "value": null,
+              "display": "27.1% | 0.2%",
+              "status": "Warning"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EH - Homerm StaffAdm",
+              "org_level": "Division",
+              "site": null,
+              "value": null,
+              "display": "",
+              "status": "Not Available"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EB - BaPS Engr",
+              "org_level": "Division",
+              "site": null,
+              "value": null,
+              "display": "17.9% | 1.1%",
+              "status": "Warning"
+            }
+          ]
+        },
+        {
+          "indicator_id": "9",
+          "metric_name": "Current Utilization Forecast | Variance (NGRB)",
+          "records": [
+            {
+              "reporting_date": "2026-07-01",
+              "org": "E - Engineering & Science",
+              "org_level": "Sector",
+              "site": null,
+              "value": null,
+              "display": "91.7% | -0.2%",
+              "status": "Warning"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EX - NIC",
+              "org_level": "Division",
+              "site": null,
+              "value": null,
+              "display": "93.1% | 0.1%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EP - E&S SECTOR ENGINEERING",
+              "org_level": "Division",
+              "site": null,
+              "value": null,
+              "display": "93.4% | 1.3%",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EN - MSTS",
+              "org_level": "Division",
+              "site": null,
+              "value": null,
+              "display": "90.6% | -0.3%",
+              "status": "Warning"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EM - Marine Systems",
+              "org_level": "Division",
+              "site": null,
+              "value": null,
+              "display": "89.7% | -0.3%",
+              "status": "Warning"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EH - Homerm StaffAdm",
+              "org_level": "Division",
+              "site": null,
+              "value": null,
+              "display": "",
+              "status": "Not Available"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EB - BaPS Engr",
+              "org_level": "Division",
+              "site": null,
+              "value": null,
+              "display": "91.6% | -0.5%",
+              "status": "Warning"
+            }
+          ]
+        },
+        {
+          "indicator_id": "53",
+          "metric_name": "EBS, ISS, Marine Labor Base | Variance (NGRB)",
+          "records": [
+            {
+              "reporting_date": "2026-07-01",
+              "org": "E - Engineering & Science",
+              "org_level": "Sector",
+              "site": null,
+              "value": 1886396706.21,
+              "display": "$1.9B | -$81.5M",
+              "status": "Warning"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EX - NIC",
+              "org_level": "Division",
+              "site": null,
+              "value": 517453372.77,
+              "display": "$517.5M | -$12.8M",
+              "status": "Warning"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EP - E&S SECTOR ENGINEERING",
+              "org_level": "Division",
+              "site": null,
+              "value": 89742900.67,
+              "display": "$89.7M | -$1.8M",
+              "status": "Warning"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EN - MSTS",
+              "org_level": "Division",
+              "site": null,
+              "value": 333882716.93,
+              "display": "$333.9M | -$6.6M",
+              "status": "Warning"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EM - Marine Systems",
+              "org_level": "Division",
+              "site": null,
+              "value": 91893429.99,
+              "display": "$91.9M | $2.1M",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EB - BaPS Engr",
+              "org_level": "Division",
+              "site": null,
+              "value": 853424285.85,
+              "display": "$853.4M | -$62.5M",
+              "status": "At-Risk"
+            }
+          ]
+        },
+        {
+          "indicator_id": "54",
+          "metric_name": "EBS, ISS, Marine Labor Expense | Variance (NGRB)",
+          "records": [
+            {
+              "reporting_date": "2026-07-01",
+              "org": "E - Engineering & Science",
+              "org_level": "Sector",
+              "site": null,
+              "value": 336541395.54,
+              "display": "$336.5M | -$11.0M",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EX - NIC",
+              "org_level": "Division",
+              "site": null,
+              "value": 72439674.83,
+              "display": "$72.4M | -$4.1M",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EP - E&S SECTOR ENGINEERING",
+              "org_level": "Division",
+              "site": null,
+              "value": 18274498.68,
+              "display": "$18.3M | -$2.1M",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EN - MSTS",
+              "org_level": "Division",
+              "site": null,
+              "value": 64695711.06,
+              "display": "$64.7M | $236.3K",
+              "status": "Warning"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EM - Marine Systems",
+              "org_level": "Division",
+              "site": null,
+              "value": 24944016.95,
+              "display": "$24.9M | $743.7K",
+              "status": "Warning"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EH - Homerm StaffAdm",
+              "org_level": "Division",
+              "site": null,
+              "value": 2709600.94,
+              "display": "$2.7M | -$5.6M",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EB - BaPS Engr",
+              "org_level": "Division",
+              "site": null,
+              "value": 153477893.08,
+              "display": "$153.5M | -$132.3K",
+              "status": "Healthy"
+            }
+          ]
+        },
+        {
+          "indicator_id": "56",
+          "metric_name": "MSHO Labor Expense | Variance (NGRB)",
+          "records": [
+            {
+              "reporting_date": "2026-07-01",
+              "org": "E - Engineering & Science",
+              "org_level": "Sector",
+              "site": null,
+              "value": 53571424.92,
+              "display": "$53.6M | $1.6M",
+              "status": "Warning"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EX - NIC",
+              "org_level": "Division",
+              "site": null,
+              "value": 3753494.04,
+              "display": "$3.8M | $268.3K",
+              "status": "At-Risk"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EP - E&S SECTOR ENGINEERING",
+              "org_level": "Division",
+              "site": null,
+              "value": 18258271.59,
+              "display": "$18.3M | $1.3M",
+              "status": "At-Risk"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EN - MSTS",
+              "org_level": "Division",
+              "site": null,
+              "value": 4280888.36,
+              "display": "$4.3M | -$282.9K",
+              "status": "Healthy"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EM - Marine Systems",
+              "org_level": "Division",
+              "site": null,
+              "value": 168108.64,
+              "display": "$168.1K | $144.6K",
+              "status": "At-Risk"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EH - Homerm StaffAdm",
+              "org_level": "Division",
+              "site": null,
+              "value": 23177378.53,
+              "display": "$23.2M | $107.7K",
+              "status": "Warning"
+            },
+            {
+              "reporting_date": "2026-07-01",
+              "org": "EB - BaPS Engr",
+              "org_level": "Division",
+              "site": null,
+              "value": 3933283.76,
+              "display": "$3.9M | $74.9K",
+              "status": "Warning"
+            }
+          ]
+        },
+        {
+          "indicator_id": "75",
+          "metric_name": "Unallowable",
+          "records": [
+            {
+              "reporting_date": "2026-07-01",
+              "org": "E - Engineering & Science",
+              "org_level": "Sector",
+              "site": null,
+              "value": null,
+              "display": "64.49%",
+              "status": "Not Available"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Data observability</title>
+  <style>
+    :root { color-scheme: light; font: 15px/1.5 system-ui, sans-serif; background: #f5f7fa; color: #172536; }
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    header { background: #10263f; color: white; padding: 1.5rem max(1rem, calc((100vw - 1200px)/2)); }
+    header h1 { margin: 0; font-size: 1.8rem; }
+    main { max-width: 1200px; padding: 1.5rem 1rem 4rem; margin: auto; }
+    .summary { display: flex; flex-wrap: wrap; gap: .8rem; margin-bottom: 1rem; }
+    .card, details { background: white; border: 1px solid #d9e1e8; border-radius: 8px; padding: 1rem; }
+    .card { flex: 1 1 155px; }
+    .card strong { display: block; font-size: 1.5rem; }
+    .muted { color: #536575; }
+    .error { color: #a51c30; }
+    .warning { color: #9a5700; }
+    .tag { display: inline-block; border-radius: 4px; padding: .1rem .4rem; background: #e9eef3; margin-left: .3rem; font-size: .8rem; }
+    .tag.error { background: #fbe8eb; }
+    .tag.warning { background: #fff2dc; }
+    details { margin: .65rem 0; }
+    summary { cursor: pointer; font-weight: 650; }
+    .indicator { border-top: 1px solid #e2e8ee; padding-top: .8rem; margin-top: .8rem; }
+    .indicator h3 { margin: 0 0 .4rem; font-size: 1rem; }
+    .table-wrap { overflow-x: auto; }
+    table { border-collapse: collapse; width: 100%; font-size: .9rem; margin: .4rem 0 1rem; }
+    th, td { text-align: left; border-bottom: 1px solid #e4eaf0; padding: .35rem .5rem; vertical-align: top; }
+    th { background: #f1f4f7; white-space: nowrap; }
+    .site td:first-child { padding-left: 1.5rem; }
+    .findings { max-height: 32rem; overflow: auto; }
+    .finding { border-bottom: 1px solid #e4eaf0; padding: .45rem 0; }
+    .filter { margin: .6rem 0 1rem; width: min(100%, 400px); padding: .55rem; border: 1px solid #aab8c5; border-radius: 5px; }
+  </style>
+</head>
+<body>
+<header><h1>Data observability</h1><div id="updated">Loading results…</div></header>
+<main>
+  <section id="summary" class="summary" aria-label="Check summary"></section>
+  <h2>Findings</h2>
+  <div id="findings" class="card findings"></div>
+  <h2>Drivers and indicators</h2>
+  <label for="filter">Filter by driver, indicator, or organization</label><br>
+  <input id="filter" class="filter" type="search" placeholder="Search records">
+  <div id="drivers"></div>
+</main>
+<script>
+const el = (name, text, className) => {
+  const node = document.createElement(name);
+  if (text !== undefined && text !== null) node.textContent = String(text);
+  if (className) node.className = className;
+  return node;
+};
+const add = (parent, name, text, className) => parent.appendChild(el(name, text, className));
+const label = value => value === null || value === undefined || value === '' ? '—' : value;
+function table(headers, rows, parent) {
+  const wrap = el('div'); wrap.className = 'table-wrap';
+  const t = el('table'), head = el('thead'), tr = el('tr');
+  headers.forEach(h => add(tr, 'th', h)); head.appendChild(tr); t.appendChild(head);
+  const body = el('tbody');
+  rows.forEach(row => { const line = el('tr'); if (row[0] === 'Site') line.className = 'site'; row.forEach(cell => add(line, 'td', label(cell))); body.appendChild(line); });
+  t.appendChild(body); wrap.appendChild(t); parent.appendChild(wrap);
+}
+function render(data) {
+  document.getElementById('updated').textContent = `Last checked ${new Date(data.generated_at).toLocaleString()} · ${data.source_rows.indicator} indicator rows · ${data.source_rows.driver} driver rows`;
+  const summary = document.getElementById('summary');
+  [['Errors', data.summary.error], ['Warnings', data.summary.warning], ['Inventory presence', data.checks.inventory], ['Numeric reconciliation', data.checks.numeric_reconciliation], ['History evaluated', data.checks.history.evaluated], ['Insufficient history', data.checks.history.insufficient_history]].forEach(([title, value]) => {
+    const card = el('div'); card.className = 'card'; add(card, 'span', title, 'muted'); add(card, 'strong', value); summary.appendChild(card);
+  });
+  const findings = document.getElementById('findings');
+  if (!data.findings.length) add(findings, 'p', 'No findings.');
+  data.findings.forEach(f => {
+    const line = el('div'); line.className = 'finding';
+    add(line, 'span', f.severity.toUpperCase(), `tag ${f.severity}`);
+    add(line, 'strong', ` ${f.message}`);
+    const where = [f.driver_id && `Driver ${f.driver_id}`, f.indicator_id && `Indicator ${f.indicator_id}`, f.org_level, f.org, f.site, f.reporting_date].filter(Boolean).join(' · ');
+    if (where) add(line, 'div', where, 'muted');
+    findings.appendChild(line);
+  });
+  const container = document.getElementById('drivers');
+  const filter = document.getElementById('filter');
+  function renderDrivers() {
+    container.replaceChildren();
+    const term = filter.value.trim().toLowerCase();
+    data.drivers.forEach(driver => {
+      const matching = driver.indicators.filter(i => !term || `${driver.driver_name} ${i.metric_name} ${i.records.map(r => `${r.org} ${r.site || ''}`).join(' ')}`.toLowerCase().includes(term));
+      if (!matching.length && term) return;
+      const section = el('details'); section.open = !!term;
+      const title = el('summary', `${driver.driver_name} · ${matching.length} indicators`); section.appendChild(title);
+      add(section, 'p', 'Driver scores by organization', 'muted');
+      table(['Organization', 'Reporting date', 'Score', 'Status'], driver.records.map(r => [r.org, r.reporting_date, r.score, r.status]), section);
+      matching.forEach(indicator => {
+        const block = el('div'); block.className = 'indicator';
+        add(block, 'h3', `${indicator.metric_name} · indicator ${indicator.indicator_id}`);
+        const dates = [...new Set(indicator.records.map(r => r.reporting_date))].sort().reverse();
+        dates.forEach(day => {
+          add(block, 'strong', day);
+          const records = indicator.records.filter(r => r.reporting_date === day).sort((a,b) => ({Sector:0,Division:1,Site:2}[a.org_level] - {Sector:0,Division:1,Site:2}[b.org_level]) || a.org.localeCompare(b.org) || (a.site || '').localeCompare(b.site || ''));
+          table(['Level', 'Organization / site', 'Value', 'Display', 'Status'], records.map(r => [r.org_level, r.site ? `${r.org} / ${r.site}` : r.org, r.value, r.display, r.status]), block);
+        });
+        section.appendChild(block);
+      });
+      container.appendChild(section);
+    });
+    if (!container.children.length) add(container, 'p', 'No matching drivers or indicators.');
+  }
+  filter.addEventListener('input', renderDrivers);
+  renderDrivers();
+}
+fetch('./results.json', {cache: 'no-store'}).then(response => { if (!response.ok) throw new Error(`HTTP ${response.status}`); return response.json(); }).then(render).catch(error => {
+  document.getElementById('updated').textContent = `Could not load results.json: ${error.message}`;
+});
+</script>
+</body>
+</html>
