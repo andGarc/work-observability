@@ -18,6 +18,10 @@
     .muted { color: #536575; }
     .error { color: #a51c30; }
     .warning { color: #9a5700; }
+    .FAIL { color: #a51c30; }
+    .WARN { color: #9a5700; }
+    .PASS { color: #127044; }
+    .UNKNOWN { color: #536575; }
     .tag { display: inline-block; border-radius: 4px; padding: .1rem .4rem; background: #e9eef3; margin-left: .3rem; font-size: .8rem; }
     .tag.error { background: #fbe8eb; }
     .tag.warning { background: #fff2dc; }
@@ -38,7 +42,10 @@
 <body>
 <header><h1>Data observability</h1><div id="updated">Loading results…</div></header>
 <main>
+  <section id="health" class="card" aria-live="polite">Checking workflow health…</section>
   <section id="summary" class="summary" aria-label="Check summary"></section>
+  <h2>Extract freshness</h2>
+  <div id="freshness" class="card"></div>
   <h2>Findings</h2>
   <div id="findings" class="card findings"></div>
   <h2>Drivers and indicators</h2>
@@ -46,6 +53,7 @@
   <input id="filter" class="filter" type="search" placeholder="Search records">
   <div id="drivers"></div>
 </main>
+<script src="./health.js"></script>
 <script>
 const el = (name, text, className) => {
   const node = document.createElement(name);
@@ -66,8 +74,17 @@ function table(headers, rows, parent) {
 function render(data) {
   document.getElementById('updated').textContent = `Last checked ${new Date(data.generated_at).toLocaleString()} · ${data.source_rows.indicator} indicator rows · ${data.source_rows.driver} driver rows`;
   const summary = document.getElementById('summary');
-  [['Errors', data.summary.error], ['Warnings', data.summary.warning], ['Inventory presence', data.checks.inventory], ['Numeric reconciliation', data.checks.numeric_reconciliation], ['History evaluated', data.checks.history.evaluated], ['Insufficient history', data.checks.history.insufficient_history]].forEach(([title, value]) => {
+  [['Data quality', data.data_status], ['Errors', data.summary.error], ['Warnings', data.summary.warning], ['Inventory presence', data.checks.inventory], ['Metric configuration', data.checks.metric_configuration || 'unconfigured'], ['Driver status rules', data.checks.driver_status_rules || 'unverified'], ['Numeric reconciliation', data.checks.numeric_reconciliation], ['History evaluated', data.checks.history.evaluated], ['Insufficient history', data.checks.history.insufficient_history]].forEach(([title, value]) => {
     const card = el('div'); card.className = 'card'; add(card, 'span', title, 'muted'); add(card, 'strong', value); summary.appendChild(card);
+  });
+  const freshness = document.getElementById('freshness');
+  Object.entries(data.freshness || {}).forEach(([kind, item]) => {
+    add(freshness, 'h3', `${kind} · ${item.readable ? 'readable' : 'unreadable'} · ${item.row_count} rows`);
+    add(freshness, 'p', `Latest reporting date: ${label(item.latest_reporting_date)} · Required month: ${item.required_month}`);
+    if (kind === 'indicator') add(freshness, 'p', `Latest created: ${label(item.latest_created_date)} · Latest updated: ${label(item.latest_updated_date)}`);
+    const stale = item.entities.filter(e => e.stale);
+    add(freshness, 'p', `${stale.length} stale of ${item.entities.length} entities`);
+    if (stale.length) table(['Driver', 'Indicator', 'Organization', 'Level / site', 'Latest', 'Due'], stale.map(e => [e.driver_id, e.indicator_id, e.org, [e.org_level,e.site].filter(Boolean).join(' / '), e.latest_reporting_date, e.required_month]), freshness);
   });
   const findings = document.getElementById('findings');
   if (!data.findings.length) add(findings, 'p', 'No findings.');
@@ -75,7 +92,7 @@ function render(data) {
     const line = el('div'); line.className = 'finding';
     add(line, 'span', f.severity.toUpperCase(), `tag ${f.severity}`);
     add(line, 'strong', ` ${f.message}`);
-    const where = [f.driver_id && `Driver ${f.driver_id}`, f.indicator_id && `Indicator ${f.indicator_id}`, f.org_level, f.org, f.site, f.reporting_date].filter(Boolean).join(' · ');
+    const where = [f.driver_id && `Driver ${f.driver_id}`, f.indicator_id && `Indicator ${f.indicator_id}`, f.org_level, f.org, f.site, f.reporting_date || f.reporting_period].filter(Boolean).join(' · ');
     if (where) add(line, 'div', where, 'muted');
     findings.appendChild(line);
   });
@@ -109,8 +126,39 @@ function render(data) {
   filter.addEventListener('input', renderDrivers);
   renderDrivers();
 }
-fetch('./results.json', {cache: 'no-store'}).then(response => { if (!response.ok) throw new Error(`HTTP ${response.status}`); return response.json(); }).then(render).catch(error => {
+const api = 'https://api.github.com/repos/andGarc/work-observability/actions/workflows/observability.yml/runs';
+async function json(url) {
+  const response = await fetch(url, {cache: 'no-store', headers: {Accept: 'application/vnd.github+json'}});
+  if (!response.ok) throw new Error(`HTTP ${response.status}`);
+  return response.json();
+}
+async function workflowHealth(data) {
+  const health = document.getElementById('health');
+  try {
+    const [recent, scheduled, successful] = await Promise.all([
+      json(`${api}?per_page=1`),
+      json(`${api}?event=schedule&per_page=1`),
+      json(`${api}?status=success&per_page=1`)
+    ]);
+    const latest = recent.workflow_runs?.[0], schedule = scheduled.workflow_runs?.[0], success = successful.workflow_runs?.[0];
+    if (!latest) throw new Error('No workflow runs returned');
+    const {job, reason} = assessHealth(data, latest, schedule, Date.now());
+    const quality = data?.data_status || 'UNKNOWN';
+    const overall = overallStatus(job, quality);
+    health.replaceChildren();
+    add(health, 'strong', `Overall ${overall}`, overall);
+    add(health, 'p', `Job ${job} · Data quality ${quality} · ${reason}`);
+    add(health, 'p', `Latest run: ${latest.id} (${latest.created_at}) · Latest scheduled: ${schedule ? `${schedule.id} (${schedule.created_at})` : 'unavailable'} · Last successful: ${success ? `${success.id} (${success.created_at})` : 'unavailable'}`, 'muted');
+  } catch (error) {
+    health.replaceChildren();
+    const overall = overallStatus('UNKNOWN', data?.data_status || 'UNKNOWN');
+    add(health, 'strong', `Overall ${overall}`, overall);
+    add(health, 'p', `Job UNKNOWN · Workflow status unavailable: ${error.message}`);
+  }
+}
+json('./results.json').then(data => { render(data); workflowHealth(data); }).catch(error => {
   document.getElementById('updated').textContent = `Could not load results.json: ${error.message}`;
+  workflowHealth(null);
 });
 </script>
 </body>
