@@ -4162,5 +4162,1378 @@
         ]
       }
     }
+  },
+  {
+    "generated_at": "2026-10-03T16:17:02.898073+00:00",
+    "run_id": "37136272949",
+    "summary": {
+      "error": 0,
+      "warning": 553
+    },
+    "source_hashes": {
+      "indicator": "9ddacaedbb5f06c596ef59bb73d79af18180c7c2ac5d57b0522dc43edef07af8",
+      "driver": "7e3ac77f0c39b117fbb0446328314a66aeb5aef04a148a19bdab50c326dbcc2d"
+    },
+    "source_rows": {
+      "indicator": 2230,
+      "driver": 168
+    },
+    "groups": {
+      "indicator": {
+        "schema": [
+          "Display",
+          "FTE_Percent",
+          "Site",
+          "ToolTip",
+          "bucket_id",
+          "created_date",
+          "current_value_num",
+          "driver_id",
+          "indicator_id",
+          "indicator_status",
+          "is_active",
+          "is_higher_better",
+          "is_informational",
+          "is_max_date",
+          "metric_name",
+          "org",
+          "org_level",
+          "reporting_date",
+          "target",
+          "threshold_blue_min",
+          "threshold_green_min",
+          "threshold_red_min",
+          "threshold_yellow_min",
+          "trend",
+          "trend_direction",
+          "updated_date"
+        ],
+        "row_count": 2230,
+        "current_month": "2026-07",
+        "current_count": 171,
+        "status_mix": {
+          "Healthy": 69,
+          "At-Risk": 37,
+          "Warning": 23,
+          "unk": 30,
+          "Not Available": 12
+        },
+        "by_driver": {
+          "1": 20,
+          "3": 31,
+          "4": 21,
+          "5": 1,
+          "6": 36,
+          "16": 3,
+          "17": 24,
+          "15": 35
+        },
+        "by_driver_status": {
+          "1": {
+            "Healthy": 14,
+            "At-Risk": 4,
+            "Warning": 2
+          },
+          "3": {
+            "At-Risk": 8,
+            "Healthy": 3,
+            "Warning": 1,
+            "unk": 19
+          },
+          "4": {
+            "Healthy": 13,
+            "At-Risk": 1,
+            "unk": 6,
+            "Not Available": 1
+          },
+          "5": {
+            "unk": 1
+          },
+          "6": {
+            "At-Risk": 13,
+            "Healthy": 21,
+            "Warning": 2
+          },
+          "16": {
+            "unk": 3
+          },
+          "17": {
+            "Not Available": 8,
+            "At-Risk": 7,
+            "unk": 1,
+            "Healthy": 7,
+            "Warning": 1
+          },
+          "15": {
+            "Warning": 17,
+            "Not Available": 3,
+            "Healthy": 11,
+            "At-Risk": 4
+          }
+        },
+        "by_driver_nulls": {
+          "3": 12,
+          "4": 1,
+          "5": 1,
+          "16": 3,
+          "17": 9,
+          "15": 15
+        },
+        "by_driver_zeros": {},
+        "by_level": {
+          "Sector": 26,
+          "Division": 109,
+          "Site": 36
+        },
+        "org_levels": [
+          [
+            "1",
+            "E - Engineering & Science",
+            "Sector"
+          ],
+          [
+            "1",
+            "EB - BaPS Engr",
+            "Division"
+          ],
+          [
+            "1",
+            "EH - Homerm StaffAdm",
+            "Division"
+          ],
+          [
+            "1",
+            "EM - Marine Systems",
+            "Division"
+          ],
+          [
+            "1",
+            "EN - MSTS",
+            "Division"
+          ],
+          [
+            "1",
+            "EP - E&S SECTOR ENGINEERING",
+            "Division"
+          ],
+          [
+            "1",
+            "EX - NIC",
+            "Division"
+          ],
+          [
+            "28",
+            "E - Engineering & Science",
+            "Sector"
+          ],
+          [
+            "28",
+            "EB - BaPS Engr",
+            "Division"
+          ],
+          [
+            "28",
+            "EM - Marine Systems",
+            "Division"
+          ],
+          [
+            "28",
+            "EN - MSTS",
+            "Division"
+          ],
+          [
+            "28",
+            "EP - E&S SECTOR ENGINEERING",
+            "Division"
+          ],
+          [
+            "28",
+            "EX - NIC",
+            "Division"
+          ],
+          [
+            "3",
+            "E - Engineering & Science",
+            "Sector"
+          ],
+          [
+            "3",
+            "EB - BaPS Engr",
+            "Division"
+          ],
+          [
+            "3",
+            "EH - Homerm StaffAdm",
+            "Division"
+          ],
+          [
+            "3",
+            "EM - Marine Systems",
+            "Division"
+          ],
+          [
+            "3",
+            "EN - MSTS",
+            "Division"
+          ],
+          [
+            "3",
+            "EP - E&S SECTOR ENGINEERING",
+            "Division"
+          ],
+          [
+            "3",
+            "EX - NIC",
+            "Division"
+          ],
+          [
+            "31",
+            "E - Engineering & Science",
+            "Sector"
+          ],
+          [
+            "31",
+            "EB - BaPS Engr",
+            "Division"
+          ],
+          [
+            "31",
+            "EM - Marine Systems",
+            "Division"
+          ],
+          [
+            "31",
+            "EN - MSTS",
+            "Division"
+          ],
+          [
+            "31",
+            "EP - E&S SECTOR ENGINEERING",
+            "Division"
+          ],
+          [
+            "31",
+            "EX - NIC",
+            "Division"
+          ],
+          [
+            "35",
+            "E - Engineering & Science",
+            "Sector"
+          ],
+          [
+            "35",
+            "EB - BaPS Engr",
+            "Division"
+          ],
+          [
+            "35",
+            "EM - Marine Systems",
+            "Division"
+          ],
+          [
+            "35",
+            "EN - MSTS",
+            "Division"
+          ],
+          [
+            "35",
+            "EP - E&S SECTOR ENGINEERING",
+            "Division"
+          ],
+          [
+            "35",
+            "EX - NIC",
+            "Division"
+          ],
+          [
+            "36",
+            "E - Engineering & Science",
+            "Sector"
+          ],
+          [
+            "36",
+            "EB - BaPS Engr",
+            "Division"
+          ],
+          [
+            "36",
+            "EH - Homerm StaffAdm",
+            "Division"
+          ],
+          [
+            "36",
+            "EM - Marine Systems",
+            "Division"
+          ],
+          [
+            "36",
+            "EN - MSTS",
+            "Division"
+          ],
+          [
+            "36",
+            "EP - E&S SECTOR ENGINEERING",
+            "Division"
+          ],
+          [
+            "36",
+            "EX - NIC",
+            "Division"
+          ],
+          [
+            "38",
+            "E - Engineering & Science",
+            "Sector"
+          ],
+          [
+            "38",
+            "EB - BaPS Engr",
+            "Division"
+          ],
+          [
+            "38",
+            "EH - Homerm StaffAdm",
+            "Division"
+          ],
+          [
+            "38",
+            "EM - Marine Systems",
+            "Division"
+          ],
+          [
+            "38",
+            "EN - MSTS",
+            "Division"
+          ],
+          [
+            "38",
+            "EP - E&S SECTOR ENGINEERING",
+            "Division"
+          ],
+          [
+            "38",
+            "EX - NIC",
+            "Division"
+          ],
+          [
+            "42",
+            "E - Engineering & Science",
+            "Sector"
+          ],
+          [
+            "42",
+            "EB - BaPS Engr",
+            "Division"
+          ],
+          [
+            "42",
+            "EH - Homerm StaffAdm",
+            "Division"
+          ],
+          [
+            "42",
+            "EM - Marine Systems",
+            "Division"
+          ],
+          [
+            "42",
+            "EN - MSTS",
+            "Division"
+          ],
+          [
+            "42",
+            "EP - E&S SECTOR ENGINEERING",
+            "Division"
+          ],
+          [
+            "42",
+            "EX - NIC",
+            "Division"
+          ],
+          [
+            "53",
+            "E - Engineering & Science",
+            "Sector"
+          ],
+          [
+            "53",
+            "EB - BaPS Engr",
+            "Division"
+          ],
+          [
+            "53",
+            "EM - Marine Systems",
+            "Division"
+          ],
+          [
+            "53",
+            "EN - MSTS",
+            "Division"
+          ],
+          [
+            "53",
+            "EP - E&S SECTOR ENGINEERING",
+            "Division"
+          ],
+          [
+            "53",
+            "EX - NIC",
+            "Division"
+          ],
+          [
+            "54",
+            "E - Engineering & Science",
+            "Sector"
+          ],
+          [
+            "54",
+            "EB - BaPS Engr",
+            "Division"
+          ],
+          [
+            "54",
+            "EH - Homerm StaffAdm",
+            "Division"
+          ],
+          [
+            "54",
+            "EM - Marine Systems",
+            "Division"
+          ],
+          [
+            "54",
+            "EN - MSTS",
+            "Division"
+          ],
+          [
+            "54",
+            "EP - E&S SECTOR ENGINEERING",
+            "Division"
+          ],
+          [
+            "54",
+            "EX - NIC",
+            "Division"
+          ],
+          [
+            "56",
+            "E - Engineering & Science",
+            "Sector"
+          ],
+          [
+            "56",
+            "EB - BaPS Engr",
+            "Division"
+          ],
+          [
+            "56",
+            "EH - Homerm StaffAdm",
+            "Division"
+          ],
+          [
+            "56",
+            "EM - Marine Systems",
+            "Division"
+          ],
+          [
+            "56",
+            "EN - MSTS",
+            "Division"
+          ],
+          [
+            "56",
+            "EP - E&S SECTOR ENGINEERING",
+            "Division"
+          ],
+          [
+            "56",
+            "EX - NIC",
+            "Division"
+          ],
+          [
+            "59",
+            "E - Engineering & Science",
+            "Sector"
+          ],
+          [
+            "6",
+            "E - Engineering & Science",
+            "Sector"
+          ],
+          [
+            "6",
+            "EB - BaPS Engr",
+            "Division"
+          ],
+          [
+            "6",
+            "EH - Homerm StaffAdm",
+            "Division"
+          ],
+          [
+            "6",
+            "EM - Marine Systems",
+            "Division"
+          ],
+          [
+            "6",
+            "EN - MSTS",
+            "Division"
+          ],
+          [
+            "6",
+            "EP - E&S SECTOR ENGINEERING",
+            "Division"
+          ],
+          [
+            "6",
+            "EX - NIC",
+            "Division"
+          ],
+          [
+            "60",
+            "E - Engineering & Science",
+            "Site"
+          ],
+          [
+            "60",
+            "Other",
+            "Site"
+          ],
+          [
+            "61",
+            "E - Engineering & Science",
+            "Site"
+          ],
+          [
+            "61",
+            "Other",
+            "Site"
+          ],
+          [
+            "62",
+            "E - Engineering & Science",
+            "Site"
+          ],
+          [
+            "62",
+            "Other",
+            "Site"
+          ],
+          [
+            "63",
+            "E - Engineering & Science",
+            "Sector"
+          ],
+          [
+            "64",
+            "E - Engineering & Science",
+            "Sector"
+          ],
+          [
+            "65",
+            "E - Engineering & Science",
+            "Sector"
+          ],
+          [
+            "68",
+            "E - Engineering & Science",
+            "Sector"
+          ],
+          [
+            "68",
+            "EB - AMSD Engr",
+            "Division"
+          ],
+          [
+            "68",
+            "EB - BaPS Engr",
+            "Division"
+          ],
+          [
+            "68",
+            "EM - Marine Systems",
+            "Division"
+          ],
+          [
+            "68",
+            "EN - MSTS",
+            "Division"
+          ],
+          [
+            "68",
+            "EV - Mission Next Engineering",
+            "Division"
+          ],
+          [
+            "68",
+            "EX - NIC",
+            "Division"
+          ],
+          [
+            "68",
+            "Other",
+            "Division"
+          ],
+          [
+            "69",
+            "E - Engineering & Science",
+            "Sector"
+          ],
+          [
+            "69",
+            "EB - AMSD Engr",
+            "Division"
+          ],
+          [
+            "69",
+            "EB - BaPS Engr",
+            "Division"
+          ],
+          [
+            "69",
+            "EM - Marine Systems",
+            "Division"
+          ],
+          [
+            "69",
+            "EN - MSTS",
+            "Division"
+          ],
+          [
+            "69",
+            "EV - Mission Next Engineering",
+            "Division"
+          ],
+          [
+            "69",
+            "EX - NIC",
+            "Division"
+          ],
+          [
+            "7",
+            "E - Engineering & Science",
+            "Sector"
+          ],
+          [
+            "7",
+            "EB - BaPS Engr",
+            "Division"
+          ],
+          [
+            "7",
+            "EH - Homerm StaffAdm",
+            "Division"
+          ],
+          [
+            "7",
+            "EM - Marine Systems",
+            "Division"
+          ],
+          [
+            "7",
+            "EN - MSTS",
+            "Division"
+          ],
+          [
+            "7",
+            "EP - E&S SECTOR ENGINEERING",
+            "Division"
+          ],
+          [
+            "7",
+            "EX - NIC",
+            "Division"
+          ],
+          [
+            "70",
+            "E - Engineering & Science",
+            "Sector"
+          ],
+          [
+            "74",
+            "E - Engineering & Science",
+            "Sector"
+          ],
+          [
+            "74",
+            "EB - BaPS Engr",
+            "Division"
+          ],
+          [
+            "74",
+            "EN - MSTS",
+            "Division"
+          ],
+          [
+            "74",
+            "EX - NIC",
+            "Division"
+          ],
+          [
+            "75",
+            "E - Engineering & Science",
+            "Sector"
+          ],
+          [
+            "77",
+            "E - Engineering & Science",
+            "Sector"
+          ],
+          [
+            "77",
+            "EB - BaPS Engr",
+            "Division"
+          ],
+          [
+            "77",
+            "EN - MSTS",
+            "Division"
+          ],
+          [
+            "77",
+            "EX - NIC",
+            "Division"
+          ],
+          [
+            "78",
+            "E - Engineering & Science",
+            "Sector"
+          ],
+          [
+            "78",
+            "EB - BaPS Engr",
+            "Division"
+          ],
+          [
+            "78",
+            "EM - Marine Systems",
+            "Division"
+          ],
+          [
+            "78",
+            "EN - MSTS",
+            "Division"
+          ],
+          [
+            "78",
+            "EP - E&S SECTOR ENGINEERING",
+            "Division"
+          ],
+          [
+            "78",
+            "EX - NIC",
+            "Division"
+          ],
+          [
+            "79",
+            "E - Engineering & Science",
+            "Sector"
+          ],
+          [
+            "79",
+            "EB - BaPS Engr",
+            "Division"
+          ],
+          [
+            "79",
+            "EM - Marine Systems",
+            "Division"
+          ],
+          [
+            "79",
+            "EN - MSTS",
+            "Division"
+          ],
+          [
+            "79",
+            "EP - E&S SECTOR ENGINEERING",
+            "Division"
+          ],
+          [
+            "79",
+            "EX - NIC",
+            "Division"
+          ],
+          [
+            "9",
+            "E - Engineering & Science",
+            "Sector"
+          ],
+          [
+            "9",
+            "EB - BaPS Engr",
+            "Division"
+          ],
+          [
+            "9",
+            "EH - Homerm StaffAdm",
+            "Division"
+          ],
+          [
+            "9",
+            "EM - Marine Systems",
+            "Division"
+          ],
+          [
+            "9",
+            "EN - MSTS",
+            "Division"
+          ],
+          [
+            "9",
+            "EP - E&S SECTOR ENGINEERING",
+            "Division"
+          ],
+          [
+            "9",
+            "EX - NIC",
+            "Division"
+          ]
+        ],
+        "null_values": 41,
+        "zero_denominators": 0,
+        "active_indicators": [
+          "1",
+          "28",
+          "3",
+          "31",
+          "35",
+          "36",
+          "38",
+          "42",
+          "53",
+          "54",
+          "56",
+          "59",
+          "6",
+          "60",
+          "61",
+          "62",
+          "63",
+          "64",
+          "65",
+          "68",
+          "69",
+          "7",
+          "70",
+          "74",
+          "75",
+          "77",
+          "78",
+          "79",
+          "9"
+        ],
+        "thresholds": [
+          [
+            "1",
+            "NULL",
+            "0.035",
+            "0.050",
+            "0.050"
+          ],
+          [
+            "28",
+            "1.000",
+            "0.960",
+            "0.800",
+            "0.800"
+          ],
+          [
+            "3",
+            "NULL",
+            "0.005",
+            "0.010",
+            "0.010"
+          ],
+          [
+            "31",
+            "NULL",
+            "0.950",
+            "0.850",
+            "0.850"
+          ],
+          [
+            "35",
+            "0.010",
+            "0.030",
+            "0.050",
+            "0.050"
+          ],
+          [
+            "36",
+            "NULL",
+            "NULL",
+            "NULL",
+            "NULL"
+          ],
+          [
+            "38",
+            "NULL",
+            "NULL",
+            "NULL",
+            "NULL"
+          ],
+          [
+            "42",
+            "-0.050",
+            "0.000",
+            "0.050",
+            "0.050"
+          ],
+          [
+            "53",
+            "0.050",
+            "0.000",
+            "-0.050",
+            "-0.050"
+          ],
+          [
+            "54",
+            "-0.050",
+            "0.000",
+            "0.050",
+            "0.050"
+          ],
+          [
+            "56",
+            "-0.050",
+            "0.000",
+            "0.050",
+            "0.050"
+          ],
+          [
+            "59",
+            "NULL",
+            "NULL",
+            "NULL",
+            "NULL"
+          ],
+          [
+            "6",
+            "1.000",
+            "0.960",
+            "0.800",
+            "0.800"
+          ],
+          [
+            "60",
+            "NULL",
+            "NULL",
+            "NULL",
+            "NULL"
+          ],
+          [
+            "61",
+            "0.000",
+            "0.000",
+            "0.000",
+            "0.000"
+          ],
+          [
+            "62",
+            "NULL",
+            "0.900",
+            "0.850",
+            "0.850"
+          ],
+          [
+            "63",
+            "NULL",
+            "NULL",
+            "NULL",
+            "NULL"
+          ],
+          [
+            "64",
+            "NULL",
+            "NULL",
+            "NULL",
+            "NULL"
+          ],
+          [
+            "65",
+            "NULL",
+            "NULL",
+            "NULL",
+            "NULL"
+          ],
+          [
+            "68",
+            "NULL",
+            "NULL",
+            "NULL",
+            "NULL"
+          ],
+          [
+            "69",
+            "1.000",
+            "0.900",
+            "0.750",
+            "0.750"
+          ],
+          [
+            "7",
+            "1.000",
+            "0.960",
+            "0.800",
+            "0.800"
+          ],
+          [
+            "70",
+            "NULL",
+            "NULL",
+            "NULL",
+            "NULL"
+          ],
+          [
+            "74",
+            "0.901",
+            "0.801",
+            "0.701",
+            "0.001"
+          ],
+          [
+            "75",
+            "NULL",
+            "NULL",
+            "NULL",
+            "NULL"
+          ],
+          [
+            "77",
+            "0.901",
+            "0.801",
+            "0.701",
+            "0.001"
+          ],
+          [
+            "78",
+            "NULL",
+            "NULL",
+            "NULL",
+            "NULL"
+          ],
+          [
+            "79",
+            "NULL",
+            "NULL",
+            "NULL",
+            "NULL"
+          ],
+          [
+            "9",
+            "0.050",
+            "0.000",
+            "-0.050",
+            "-0.050"
+          ]
+        ],
+        "mappings": [
+          [
+            "1",
+            "4",
+            "1"
+          ],
+          [
+            "28",
+            "1",
+            "1"
+          ],
+          [
+            "3",
+            "4",
+            "1"
+          ],
+          [
+            "31",
+            "3",
+            "1"
+          ],
+          [
+            "35",
+            "3",
+            "1"
+          ],
+          [
+            "36",
+            "3",
+            "1"
+          ],
+          [
+            "38",
+            "4",
+            "1"
+          ],
+          [
+            "42",
+            "15",
+            "4"
+          ],
+          [
+            "53",
+            "15",
+            "4"
+          ],
+          [
+            "54",
+            "15",
+            "4"
+          ],
+          [
+            "56",
+            "15",
+            "4"
+          ],
+          [
+            "59",
+            "5",
+            "2"
+          ],
+          [
+            "6",
+            "1",
+            "1"
+          ],
+          [
+            "60",
+            "6",
+            "2"
+          ],
+          [
+            "61",
+            "6",
+            "2"
+          ],
+          [
+            "62",
+            "6",
+            "2"
+          ],
+          [
+            "63",
+            "16",
+            "2"
+          ],
+          [
+            "64",
+            "16",
+            "2"
+          ],
+          [
+            "65",
+            "16",
+            "2"
+          ],
+          [
+            "68",
+            "17",
+            "2"
+          ],
+          [
+            "69",
+            "17",
+            "2"
+          ],
+          [
+            "7",
+            "1",
+            "1"
+          ],
+          [
+            "70",
+            "17",
+            "2"
+          ],
+          [
+            "74",
+            "17",
+            "2"
+          ],
+          [
+            "75",
+            "15",
+            "4"
+          ],
+          [
+            "77",
+            "17",
+            "2"
+          ],
+          [
+            "78",
+            "3",
+            "1"
+          ],
+          [
+            "79",
+            "3",
+            "1"
+          ],
+          [
+            "9",
+            "15",
+            "4"
+          ]
+        ]
+      },
+      "driver": {
+        "schema": [
+          "bucket_id",
+          "denominator",
+          "display_order",
+          "driver_id",
+          "driver_name",
+          "driver_score",
+          "driver_status",
+          "numerator",
+          "org",
+          "reporting_date"
+        ],
+        "row_count": 168,
+        "current_month": "2026-07",
+        "current_count": 130,
+        "status_mix": {
+          "Warning": 12,
+          "Not Available": 94,
+          "Healthy": 7,
+          "At-Risk": 17
+        },
+        "by_driver": {
+          "1": 14,
+          "3": 14,
+          "4": 14,
+          "5": 7,
+          "6": 14,
+          "7": 3,
+          "10": 8,
+          "11": 8,
+          "12": 7,
+          "15": 14,
+          "16": 13,
+          "17": 14
+        },
+        "by_driver_status": {
+          "1": {
+            "Warning": 4,
+            "Not Available": 7,
+            "Healthy": 3
+          },
+          "3": {
+            "At-Risk": 6,
+            "Not Available": 8
+          },
+          "4": {
+            "Healthy": 3,
+            "Not Available": 7,
+            "Warning": 4
+          },
+          "5": {
+            "Not Available": 7
+          },
+          "6": {
+            "Warning": 1,
+            "Not Available": 12,
+            "Healthy": 1
+          },
+          "7": {
+            "Not Available": 3
+          },
+          "10": {
+            "Not Available": 8
+          },
+          "11": {
+            "Not Available": 8
+          },
+          "12": {
+            "Not Available": 7
+          },
+          "15": {
+            "Warning": 3,
+            "Not Available": 7,
+            "At-Risk": 4
+          },
+          "16": {
+            "Not Available": 13
+          },
+          "17": {
+            "At-Risk": 7,
+            "Not Available": 7
+          }
+        },
+        "by_driver_nulls": {},
+        "by_driver_zeros": {
+          "1": 7,
+          "3": 8,
+          "4": 7,
+          "5": 7,
+          "6": 12,
+          "7": 3,
+          "10": 8,
+          "11": 8,
+          "12": 7,
+          "15": 7,
+          "16": 13,
+          "17": 7
+        },
+        "by_level": {},
+        "org_levels": [],
+        "null_values": 0,
+        "zero_denominators": 94,
+        "active_indicators": [],
+        "thresholds": [],
+        "mappings": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "10",
+            "3"
+          ],
+          [
+            "11",
+            "3"
+          ],
+          [
+            "12",
+            "3"
+          ],
+          [
+            "15",
+            "4"
+          ],
+          [
+            "16",
+            "2"
+          ],
+          [
+            "17",
+            "2"
+          ],
+          [
+            "3",
+            "1"
+          ],
+          [
+            "4",
+            "1"
+          ],
+          [
+            "5",
+            "2"
+          ],
+          [
+            "6",
+            "2"
+          ],
+          [
+            "7",
+            "2"
+          ]
+        ]
+      }
+    }
   }
 ]
